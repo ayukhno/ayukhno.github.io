@@ -102,7 +102,7 @@ CV = {
         "h_lang": "Languages",
         "lang": "Ukrainian (native), English (working)",
         "h_other": "Also",
-        "footer": "Made with AI, for AI readers. Checked by a human.",
+        "footer": "P.S. AI assembled this file from my website, which I built together with AI. I set the direction, supplied every fact and checked every line: the same way I would run AI projects in your company.",
         "other": "Built my own house and designed its engineering systems; the house and my apartment run as smart homes on a Raspberry Pi server with Home Assistant, now maintained and developed by AI.",
     },
     "uk": {
@@ -190,7 +190,7 @@ CV = {
         "h_lang": "Мови",
         "lang": "українська (рідна), англійська (робоча)",
         "h_other": "Також",
-        "footer": "Зроблено з ШІ для читачів-ШІ. Перевірено людиною.",
+        "footer": "P.S. Цей файл зібрав ШІ на основі мого сайту, який я створив разом із ШІ. Напрям, усі факти й перевірка кожного рядка — мої. Так само я вестиму ШІ-проєкти у вашій компанії.",
         "other": "Збудував власний дім і спроєктував його інженерні системи; будинок і квартира працюють за системою «розумний дім» на сервері Raspberry Pi з Home Assistant, який тепер підтримує й розвиває ШІ.",
     },
 }
@@ -234,7 +234,7 @@ def print_html(c, lang):
   .org {{ color: #333; font-weight: 600; }}
   .row {{ display: flex; justify-content: space-between; gap: 12pt; }}
   .row span:last-child {{ white-space: nowrap; color: #333; }}
-  .footer {{ margin-top: 14pt; font-size: 8pt; color: #777; font-style: italic; }}
+  .footer {{ margin-top: 12pt; font-size: 8.6pt; color: #444; font-style: italic; }}
 </style>
 </head>
 <body>

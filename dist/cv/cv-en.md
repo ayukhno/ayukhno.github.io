@@ -97,4 +97,4 @@ Built my own house and designed its engineering systems; the house and my apartm
 
 ---
 
-*Made with AI, for AI readers. Checked by a human.*
+*P.S. AI assembled this file from my website, which I built together with AI. I set the direction, supplied every fact and checked every line: the same way I would run AI projects in your company.*
