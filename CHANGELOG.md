@@ -10,6 +10,7 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Changed
 
+- Story: items in "Where I can help" start with a "+"; item four now covers operations, commerce, finance and IT, with Silpo's promotions, pricing, markdown and assortment projects.
 - Story: "What I bring" renamed "Where I can help"; the duplicate number above its first item removed.
 - Story: AI now maintains and develops the smart-home setup; TCC can use different AI models directly or through OMP; the contact call adds weighing AI costs and benefits with data security in mind.
 - Story: AI projects reordered (DPA, PMO Hub, Autosound); the tuning skill and TCC shown as one project, with TCC as the app on top of the skill.
