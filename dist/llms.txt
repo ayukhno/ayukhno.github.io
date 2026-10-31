@@ -17,10 +17,10 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 - [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): AI as a deterministic seven-phase process for car-audio DSP tuning
 - [Autosound TCC](https://github.com/ayukhno/autosound-tcc): multilingual desktop app for macOS and Windows on top of the skill
-- [This website](https://github.com/ayukhno/ayukhno.github.io): built with AI in four days for about $40 of AI usage (Codex prototype, Claude build, Gemini review and translation)
+- [This website](https://github.com/ayukhno/ayukhno.github.io): an idea on Wednesday, a Codex prototype, then eight hours with Claude and Gemini to a proofread site online, about $40 of AI usage
 
 ## Contact
 
 - [LinkedIn](https://www.linkedin.com/in/oleksandryukhno/)
 
-*P.S. AI assembled this file from my website, which I built together with AI in four days for about $40 of AI usage. AI researched, proposed options, translated and helped me brainstorm; Codex built the prototype, Claude built the site, Gemini reviewed and translated. I set the direction and checked every line: the same way I would run AI projects in your company.*
+*P.S. AI assembled this file from my website, which I built together with AI: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours with Claude building and Gemini reviewing and translating, to a proofread site online, for about $40 of AI usage. I set the direction and checked every line: the same way I would run AI projects in your company.*

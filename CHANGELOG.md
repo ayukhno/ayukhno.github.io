@@ -6,7 +6,7 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Added
 
-- "This website" case in AI in practice: four days, about $40 of AI usage, Codex prototype, Claude build, Gemini review and translation.
+- "This website" case in AI in practice: a timeline (idea on Wednesday, Codex prototype, eight hours to a proofread site), about $40 of AI usage, Codex prototype, Claude build, Gemini review and translation.
 
 ### Changed
 
