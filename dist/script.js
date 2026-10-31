@@ -69,26 +69,26 @@ const layers = isUk ? {
 } : {
   processes: {
     title: 'Simpler processes',
-    text: 'Remove unnecessary steps and handoffs. Automate routine work so people can focus on the decisions that need them.',
+    text: 'Eliminate friction and unnecessary handoffs. Automate routine workflows so people can focus on the decisions that truly matter.',
     highlighted: [0, 2, 5, 9],
     signal: 'M45 215 C90 215 110 110 190 110 C250 70 310 70 370 110 C370 180 370 250 370 320 C455 320 470 215 535 215'
   },
   people: {
-    title: 'Teaching people. Connecting teams.',
-    text: 'Teach people how the system works. Clarify responsibilities, organize communication, and bring feedback into shared decisions.',
+    title: 'Empowering people. Connecting teams.',
+    text: 'Help people see how the whole system fits together. Clarify ownership, streamline communication, and feed real-world insights back into shared decisions.',
     highlighted: [1, 7, 5, 9],
-    description: 'The People route follows Context, People, Analysis, Decisions, and Outcome, in that order. Other dependencies and feedback remain visible.',
+    description: 'The People route flows through Context, People, Analysis, Decisions, and Outcome. Other dependencies and feedback loops remain visible.',
     signal: 'M45 215 C90 215 110 320 190 320 C250 320 310 110 370 110 C370 180 370 250 370 320 C455 320 470 215 535 215'
   },
   ai: {
     title: 'AI as an exoskeleton',
-    text: 'Support analysis, knowledge work, and teaching people. Automate routine work quickly and help ongoing processes adapt. People remain responsible for decisions.',
+    text: 'Amplify analysis, knowledge work, and team enablement. Rapidly automate routine tasks and help processes adapt on the fly — while keeping humans firmly in charge of decisions.',
     highlighted: [14, 5, 11, 16],
     visible: [14, 5, 11, 16, 3, 1, 12],
     dashed: [1, 12],
     influences: [3],
-    description: 'The AI route follows Context, Analysis with AI support on that connection, Decisions, Processes, and Outcome. People influence Decisions through a solid connection. Context to People and Analysis to People are dashed connections.',
-    legend: 'Solid lines show the main route and people’s influence on decisions. Dashed lines connect context and analysis to people.',
+    description: 'The AI route follows Context, AI-augmented Analysis, Decisions, Processes, and Outcome. People influence Decisions directly via a solid path, while Context and Analysis connect to People via dashed lines.',
+    legend: 'Solid lines trace the primary flow and direct human influence on decisions. Dashed lines keep context and analysis connected to people.',
     signal: 'M45 215 C95 10 280 5 370 110 C370 180 370 250 370 320 C330 230 230 200 190 110 C300 190 420 215 535 215'
   }
 };
@@ -108,11 +108,11 @@ function selectLayer(name) {
   });
   if (organized) {
     signal.setAttribute('d', layer.signal);
-    document.querySelector('#diagram-desc').textContent = layer.description || (isUk ? 'Пов’язаний граф з’єднує контекст із процесами та людьми, далі — аналіз, людські рішення та результат. Криволінійні та штрихові шляхи зворотного зв’язку залишаються.' : 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain.');
+    document.querySelector('#diagram-desc').textContent = layer.description || (isUk ? 'Пов’язаний граф з’єднує контекст із процесами та людьми, далі — аналіз, людські рішення та результат. Криволінійні та штрихові шляхи зворотного зв’язку залишаються.' : 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes, with active feedback loops preserved.');
   }
   document.querySelector('#diagram-explanation h3').textContent = layer.title;
   document.querySelector('#diagram-explanation p').textContent = layer.text;
-  document.querySelector('.graph-legend').textContent = layer.legend || (isUk ? 'Суцільні лінії показують залежності. Штрихові повертають зворотний зв’язок у роботу. Відповідальність за рішення залишається за людьми.' : 'Connected lines show dependencies. Dashed lines bring feedback into the work. People remain responsible for decisions.');
+  document.querySelector('.graph-legend').textContent = layer.legend || (isUk ? 'Суцільні лінії показують залежності. Штрихові повертають зворотний зв’язок у роботу. Відповідальність за рішення залишається за людьми.' : 'Solid lines show dependencies. Dashed lines cycle feedback back into the loop. Decisions always remain in human hands.');
 }
 
 function setDiagram(nextState) {
@@ -125,8 +125,8 @@ function setDiagram(nextState) {
   });
   document.querySelector('#diagram-status').textContent = organized ? (isUk ? '02 / ПОВ’ЯЗАНА ТА АДАПТИВНА' : '02 / CONNECTED & ADAPTABLE') : (isUk ? '01 / ЗАПЛУТАНА РОБОТА' : '01 / TANGLED WORK');
   untangle.innerHTML = organized ? (isUk ? 'Показати заплутаність <span aria-hidden="true">↺</span>' : 'Show the tangle <span aria-hidden="true">↺</span>') : (isUk ? 'Подивитися зміни <span aria-hidden="true">↗</span>' : 'See what changes <span aria-hidden="true">↗</span>');
-  document.querySelector('.figure-note').innerHTML = organized ? (isUk ? 'система, яку можна зрозуміти,<br>з якою можна працювати і яку можна змінювати.' : 'a system you can understand,<br>work with, and change.') : (isUk ? 'десь тут є корисна<br>система.' : 'there’s a useful system<br>in here somewhere.');
-  document.querySelector('#diagram-desc').textContent = organized ? (isUk ? 'Пов’язаний граф з’єднує контекст із процесами та людьми, далі — аналіз, людські рішення та результат. Криволінійні та штрихові шляхи зворотного зв’язку зберігаються. Досліджуйте Процеси, Люди та ШІ для розуміння внеску кожного.' : 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain. Explore Processes, People, and AI for the contributions of each.') : (isUk ? 'Ілюстративна мережа ліній, що перетинаються. Натисніть «Подивитися зміни», щоб побачити процеси, людей, аналіз, людські рішення та зворотний зв’язок.' : 'An illustrative network of crossing lines. Choose See what changes to reveal processes, people, analysis, human decisions, and feedback.');
+  document.querySelector('.figure-note').innerHTML = organized ? (isUk ? 'система, яку можна зрозуміти,<br>з якою можна працювати і яку можна змінювати.' : 'a system you can understand,<br>work with, and adapt.') : (isUk ? 'десь тут є корисна<br>система.' : 'there’s a useful system<br>in here somewhere.');
+  document.querySelector('#diagram-desc').textContent = organized ? (isUk ? 'Пов’язаний граф з’єднує контекст із процесами та людьми, далі — аналіз, людські рішення та результат. Криволінійні та штрихові шляхи зворотного зв’язку зберігаються. Досліджуйте Процеси, Люди та ШІ для розуміння внеску кожного.' : 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain. Explore Processes, People, and AI to see how each contributes.') : (isUk ? 'Ілюстративна мережа ліній, що перетинаються. Натисніть «Подивитися зміни», щоб побачити процеси, людей, аналіз, людські рішення та зворотний зв’язок.' : 'An illustrative network of crossing lines. Choose See what changes to reveal processes, people, analysis, human decisions, and feedback.');
   selectLayer('processes');
   if (!organized) signal.setAttribute('d', 'M45 215 C170 15 425 405 535 215');
 }
