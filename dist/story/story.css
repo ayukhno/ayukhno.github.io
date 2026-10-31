@@ -145,10 +145,10 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .section-head h2 { font-size: clamp(30px, 4vw, 48px); max-width: 20ch; }
 .section-head p { color: var(--ink-2); max-width: 60ch; margin: 8px 0 0; }
 
-/* What I bring */
-.bring { display: grid; gap: 0; counter-reset: bring; }
-.bring li { counter-increment: bring; padding: 28px 0; border-top: 1px solid var(--line); display: grid; gap: 10px; align-content: start; }
-.bring li::before { content: "0" counter(bring); font: 600 13px/1 var(--mono); color: var(--accent); }
+/* Where I can help */
+.bring { display: grid; gap: 0; }
+.bring li { padding: 28px 0; border-top: 1px solid var(--line); display: grid; gap: 10px; align-content: start; }
+.bring li::before { content: ""; width: 28px; height: 3px; background: var(--accent); }
 .bring h3 { font-size: 22px; }
 .bring p { color: var(--ink-2); margin: 0; }
 .bring .proof { font-size: 15px; color: var(--muted); border-left: 2px solid var(--mark); padding-left: 12px; margin-top: 6px; }

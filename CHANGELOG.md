@@ -10,6 +10,8 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Changed
 
+- Story: "What I bring" renamed "Where I can help"; the duplicate number above its first item removed.
+- Story: AI now maintains and develops the smart-home setup; TCC can use different AI models directly or through OMP; the contact call adds weighing AI costs and benefits with data security in mind.
 - Story: AI projects reordered (DPA, PMO Hub, Autosound); the tuning skill and TCC shown as one project, with TCC as the app on top of the skill.
 - Story: the Autosound case now explains the skill as a deterministic, multi-factor process and TCC as a multilingual, cross-platform application.
 - Story: "Scaling AI" step explains the three ways to roll out AI (new solutions, personal work, a company-wide tool).
