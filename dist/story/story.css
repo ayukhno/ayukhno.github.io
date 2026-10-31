@@ -280,3 +280,5 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 .facts small { display: block; font: 12px/1.4 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
 .two-col .section-head { grid-template-columns: minmax(0, 1fr); }
 .case-links { display: flex; flex-wrap: wrap; column-gap: 20px; }
+.hero .cta { margin-top: 24px; }
+.hero .cta + .lead { margin-top: 24px; }
