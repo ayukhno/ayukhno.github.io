@@ -4,6 +4,13 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+## [1.3.1] - 2026-10-31
+
+### Changed
+
+- Story: contact by LinkedIn only; email and phone numbers removed from the page.
+- Story: Scanvaegt role marked as outstaffed from Ciklum; the smart homes run Home Assistant.
+
 ## [1.3.0] - 2026-10-31
 
 ### Added
@@ -58,7 +65,8 @@ All notable changes to this website are documented here. The format follows [Kee
 
 - First public version of the personal website, deployed to GitHub Pages.
 
-[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.0.0...v1.1.0

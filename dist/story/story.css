@@ -273,11 +273,9 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 
 .chapter .ticks + p { margin-top: 20px; }
 
-/* Contacts next to the portrait */
-.contacts { display: grid; gap: 2px; margin-top: 10px; font-size: 15px; line-height: 1.4; }
-.contacts a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; display: inline-block; padding: 4px 0; }
-.contacts a:hover { color: var(--accent); }
-@media (pointer: coarse) { .contacts a { padding: 10px 0; } }
+/* Contact link next to the portrait */
+.contact-link { display: inline-block; white-space: nowrap; font-size: 16px; margin-top: 8px; padding: 6px 0; font-weight: 600; color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+@media (pointer: coarse) { .contact-link { padding: 12px 0; } }
 .portrait figcaption > .mono { display: block; line-height: 1.5; }
 .facts small { display: block; font: 12px/1.4 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
 .two-col .section-head { grid-template-columns: minmax(0, 1fr); }
