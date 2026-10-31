@@ -10,6 +10,7 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Changed
 
+- Story: chapters show only their years, without numbers that repeated the section numbering.
 - Story: the main button now sits right under the headline; LinkedIn stays as one link next to the portrait.
 - Story: items in "Where I can help" start with their own line icons (eye, linked nodes, shield, four blocks); item four now covers operations, commerce, finance and IT, with Silpo's promotions, pricing, markdown and assortment projects.
 - Story: "What I bring" renamed "Where I can help"; the duplicate number above its first item removed.
