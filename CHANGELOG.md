@@ -6,6 +6,11 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Changed
 
+- "How I would start in a new role" shown as four steps in two columns; "Education and training" is its own section (05), contact moves to 06.
+- Removed the line "Each one is backed by the story below."
+
+### Changed
+
 - "Software for banks" runs to 2002 and includes ProFIX 1999–2002; "Projects and clients" starts in 2002 with management at ProFIX.
 
 ## [1.4.0] - 2026-10-31

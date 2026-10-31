@@ -214,7 +214,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .principles b { display: block; font-weight: 650; }
 .principles span { color: var(--ink-2); }
 .steps { counter-reset: step; }
-.steps li { counter-increment: step; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 4px 12px; padding: 16px 0; border-top: 1px solid var(--line); }
+.steps li { counter-increment: step; display: grid; align-content: start; grid-template-columns: 44px minmax(0, 1fr); gap: 4px 12px; padding: 16px 0; border-top: 1px solid var(--line); }
 .steps li::before { content: counter(step); grid-row: span 2; width: 32px; height: 32px; border-radius: 50%; border: 2px solid var(--accent); color: var(--accent); font: 700 14px/28px var(--mono); text-align: center; }
 .steps b { font-weight: 650; }
 .steps span { color: var(--ink-2); }
@@ -281,3 +281,9 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 .case-links { display: flex; flex-wrap: wrap; column-gap: 20px; }
 .hero .cta { margin-top: 24px; }
 .hero .cta + .lead { margin-top: 24px; }
+
+/* First steps and education: two columns on wide screens */
+@media (min-width: 900px) {
+  .steps-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
+  .edu-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
+}
