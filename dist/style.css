@@ -152,21 +152,45 @@ button:disabled {
 .masthead-actions {
   display:flex;
   align-items:center;
-  gap:20px;
+  gap:26px;
 }
 .lang-switch {
+  font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
   font-size:var(--text-label);
-  letter-spacing:.05em;
-  padding:4px 10px;
-  border:1px solid var(--ink);
+  font-weight:600;
+  letter-spacing:.06em;
+  padding:6px 14px;
+  border:1.5px solid var(--ink);
+  border-radius:20px;
   color:var(--ink);
+  background:rgba(36,38,32,0.04);
   text-decoration:none;
   line-height:1;
-  transition:background .2s, color .2s;
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  position:relative;
+  transition:background .2s, color .2s, border-color .2s;
+}
+.lang-switch::before {
+  content:"";
+  position:absolute;
+  inset:-6px -4px;
 }
 .lang-switch:hover {
   background:var(--ink);
   color:var(--paper);
+}
+.lang-dot {
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:var(--red);
+  display:inline-block;
+  transition:transform .2s ease;
+}
+.lang-switch:hover .lang-dot {
+  transform:scale(1.25);
 }
 .hero {
   padding-top:32px;
@@ -386,6 +410,7 @@ figcaption {
   align-items:center;
   font-size:var(--text-label);
   letter-spacing:.03em;
+  flex-wrap:wrap;
 }
 .hero-foot a {
   color:var(--muted);
@@ -765,7 +790,7 @@ footer .mono {
 }
 
 /* Reading scale and controls share the same tokens at every viewport. */
-.masthead nav a,.nav-contact,.lang-switch,.text-link,.copy-link,footer a,.recommendation a {
+.masthead nav a,.nav-contact,.text-link,.copy-link,footer a,.recommendation a {
   min-height:44px;
   display:inline-flex;
   align-items:center;
@@ -1138,8 +1163,8 @@ footer .mono {
   .principles { gap:24px; }
 }
 @media(max-width:700px) {
-  .masthead-actions { gap:12px; }
-  .lang-switch { padding:4px 8px; font-size:13px; }
+  .masthead-actions { gap:16px; }
+  .lang-switch { padding:5px 11px; font-size:13px; }
   .nav-contact { gap:12px; }
   .nav-contact span { margin-left:0; }
   .hero-grid,.focus-grid,.about-grid,.connect-grid,.perspective-heading,.recommendation { grid-template-columns:minmax(0,1fr); }
