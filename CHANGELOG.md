@@ -6,6 +6,14 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Added
 
+- "This website" case in AI in practice: four days, about $40 of AI usage, Codex prototype, Claude build, Gemini review and translation.
+
+### Changed
+
+- CV files: the P.S. now says how the site and file were made and who did what.
+
+### Added
+
 - Downloadable CV in PDF (English and Ukrainian) in the classic HR format, with download buttons by the portrait and in the contact section.
 - Markdown CVs and `llms.txt` so AI assistants and answer engines can read the CV; richer schema.org data (name variants, positions, education, languages, skills) and search descriptions.
 

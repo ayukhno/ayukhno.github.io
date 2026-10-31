@@ -102,7 +102,7 @@ CV = {
         "h_lang": "Languages",
         "lang": "Ukrainian (native), English (working)",
         "h_other": "Also",
-        "footer": "P.S. AI assembled this file from my website, which I built together with AI. I set the direction, supplied every fact and checked every line: the same way I would run AI projects in your company.",
+        "footer": "P.S. AI assembled this file from my website, which I built together with AI in four days for about $40 of AI usage. AI researched, proposed options, translated and helped me brainstorm; Codex built the prototype, Claude built the site, Gemini reviewed and translated. I set the direction and checked every line: the same way I would run AI projects in your company.",
         "other": "Built my own house and designed its engineering systems; the house and my apartment run as smart homes on a Raspberry Pi server with Home Assistant, now maintained and developed by AI.",
     },
     "uk": {
@@ -190,7 +190,7 @@ CV = {
         "h_lang": "Мови",
         "lang": "українська (рідна), англійська (робоча)",
         "h_other": "Також",
-        "footer": "P.S. Цей файл зібрав ШІ на основі мого сайту, який я створив разом із ШІ. Напрям, усі факти й перевірка кожного рядка — мої. Так само я вестиму ШІ-проєкти у вашій компанії.",
+        "footer": "P.S. Цей файл зібрав ШІ на основі мого сайту, який я створив разом із ШІ за чотири дні приблизно за $40 на ШІ. ШІ досліджував, пропонував варіанти, перекладав і допомагав у мозкових штурмах; Codex зробив прототип, Claude побудував сайт, Gemini критикував і перекладав. Напрям і перевірка кожного рядка — мої. Так само я вестиму ШІ-проєкти у вашій компанії.",
         "other": "Збудував власний дім і спроєктував його інженерні системи; будинок і квартира працюють за системою «розумний дім» на сервері Raspberry Pi з Home Assistant, який тепер підтримує й розвиває ШІ.",
     },
 }
@@ -281,6 +281,7 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 - [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): AI as a deterministic seven-phase process for car-audio DSP tuning
 - [Autosound TCC](https://github.com/ayukhno/autosound-tcc): multilingual desktop app for macOS and Windows on top of the skill
+- [This website](https://github.com/ayukhno/ayukhno.github.io): built with AI in four days for about $40 of AI usage (Codex prototype, Claude build, Gemini review and translation)
 
 ## Contact
 

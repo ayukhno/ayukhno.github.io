@@ -97,4 +97,4 @@ Built my own house and designed its engineering systems; the house and my apartm
 
 ---
 
-*P.S. AI assembled this file from my website, which I built together with AI. I set the direction, supplied every fact and checked every line: the same way I would run AI projects in your company.*
+*P.S. AI assembled this file from my website, which I built together with AI in four days for about $40 of AI usage. AI researched, proposed options, translated and helped me brainstorm; Codex built the prototype, Claude built the site, Gemini reviewed and translated. I set the direction and checked every line: the same way I would run AI projects in your company.*
