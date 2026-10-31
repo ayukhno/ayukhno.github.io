@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Oleksandr Yukhno — helping companies redesign processes, teach people, organize communication, and use AI as an exoskeleton for analysis and action.">
+  <meta name="theme-color" content="#f2efe7">
+  <title>Oleksandr Yukhno — Make complexity useful.</title>
+  <link rel="icon" type="image/svg+xml" href="assets/mark.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="reading-line" aria-hidden="true"></div>
+  <header class="masthead wrap">
+    <a href="#top" class="identity" aria-label="Oleksandr Yukhno, back to top"><span class="monogram">oy<span>↗</span></span><span>Oleksandr<br>Yukhno</span></a>
+    <nav aria-label="Main navigation"><a href="#focus">Focus</a><a href="#perspective">Experience</a><a href="#about">About</a></nav>
+    <a class="nav-contact" href="#connect">Let’s talk <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-eyebrow"><span class="dot"></span> AI, systems & the work in between </div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">Make<br>complexity<br><em>useful.</em><span class="red-stop">*</span></h1>
+          <div class="hero-introduction">
+            <div class="portrait-print"><img src="assets/oleksandr-portrait.png" width="800" height="1000" alt="Oleksandr Yukhno smiling at an outdoor café" fetchpriority="high"></div>
+            <div><p class="hero-intro">I help companies simplify how work gets done, connect teams, and use AI to understand more, automate routine work, and adapt.</p><a class="text-link" href="#focus">A closer look <span aria-hidden="true">↓</span></a></div>
+          </div>
+        </div>
+        <figure class="system-figure" data-layer="processes">
+          <div class="figure-top mono"><span>FIG. 01 — MAKING THE CONNECTIONS</span></div>
+          <div class="diagram-wrap">
+            <div class="diagram-canvas">
+              <svg id="system-diagram" viewBox="0 0 580 430" role="img" aria-labelledby="diagram-title diagram-desc">
+                <title id="diagram-title">From tangled work to a connected, adaptable system</title>
+                <desc id="diagram-desc">An illustrative network of crossing lines. Choose See what changes to reveal processes, people, analysis, human decisions, and feedback.</desc>
+                <defs>
+                  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="var(--diagram-grid)"/></pattern>
+                  <marker id="route-arrow" viewBox="0 0 7 7" markerWidth="7" markerHeight="7" refX="13" refY="3.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0L7 3.5L0 7" fill="var(--diagram-lines)"/></marker>
+                  <marker id="active-arrow" viewBox="0 0 7 7" markerWidth="7" markerHeight="7" refX="13" refY="3.5" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0L7 3.5L0 7" fill="var(--red)"/></marker>
+                </defs>
+                <rect width="580" height="430" fill="url(#grid)"/>
+                <g class="diagram-guides" fill="none" stroke="var(--diagram-guides)" stroke-width="1"><circle cx="290" cy="213" r="153"/><circle cx="290" cy="213" r="112" stroke-dasharray="3 6"/></g>
+                <g id="routes" fill="none" stroke="var(--diagram-lines)" stroke-width="1.5"></g>
+                <path id="signal" d="M45 215 C170 15 425 405 535 215" fill="none" stroke="var(--red)" stroke-width="3"/>
+                <g class="diagram-terminals"><circle cx="45" cy="215" r="7"/><circle cx="535" cy="215" r="7"/></g>
+                <g class="graph-nodes" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"><circle cx="190" cy="110" r="7"/><circle cx="190" cy="320" r="7"/><circle cx="370" cy="110" r="7"/><circle class="human-decision" cx="370" cy="320" r="9"/></g>
+                <g id="diagram-stamp" transform="translate(235 158) rotate(-8)"><rect width="110" height="110" fill="var(--paper)" stroke="var(--red)" stroke-width="1.5"/><text x="55" y="70" text-anchor="middle" class="stamp-big">?</text></g>
+              </svg>
+              <span class="graph-label graph-context">Context</span><span class="graph-label graph-outcome">Outcome</span>
+              <span class="graph-label graph-processes">Processes</span><span class="graph-label graph-people">People</span>
+              <span class="graph-label graph-analysis">Analysis</span><span class="graph-label graph-decisions">Decisions</span>
+              <span class="graph-label graph-ai-edge" aria-hidden="true">AI</span>
+            </div>
+            <span class="figure-note">there’s a useful system<br>in here somewhere.</span>
+          </div>
+          <div class="figure-bottom"><span class="mono" id="diagram-status" role="status">01 / TANGLED WORK</span><button id="untangle" type="button" aria-pressed="false" aria-controls="diagram-story">See what changes <span aria-hidden="true">↗</span></button></div>
+          <div id="diagram-story" hidden>
+            <div class="diagram-layers" role="group" aria-label="Explore what makes the system clearer">
+              <button type="button" data-layer="processes" aria-pressed="true" aria-controls="diagram-explanation">Processes</button>
+              <button type="button" data-layer="people" aria-pressed="false" aria-controls="diagram-explanation">People</button>
+              <button type="button" data-layer="ai" aria-pressed="false" aria-controls="diagram-explanation" aria-label="Explore AI as an exoskeleton">AI</button>
+            </div>
+            <div id="diagram-explanation" class="diagram-explanation" aria-live="polite" aria-atomic="true"><h3>Simpler processes</h3><p>Remove unnecessary steps and handoffs. Automate routine work so people can focus on the decisions that need them.</p></div>
+            <p class="graph-legend">Connected lines show dependencies. Dashed lines bring feedback into the work. People remain responsible for decisions.</p>
+          </div>
+          <figcaption>Fewer unnecessary steps. Clearer connections. The ability to act with deeper understanding and adapt quickly as conditions change.</figcaption>
+        </figure>
+      </div>
+      <div class="hero-foot mono"><span>Partner at FlipManager</span><span>Based in Ukraine <span class="flag" aria-label="Ukrainian flag"></span></span></div>
+    </section>
+
+    <section id="focus" class="focus section-pad" aria-labelledby="focus-title">
+      <div class="wrap">
+        <div class="section-kicker mono"><span>01 / FOCUS</span><span>PROCESSES. PEOPLE. SHARED UNDERSTANDING.</span></div>
+        <div class="focus-grid">
+          <div><h2 id="focus-title">Change the work.<br><em>Strengthen<br>the company.</em></h2><p class="section-intro">Processes, people, information, and tools belong in the same picture. The opportunity is to improve how they work together.</p><span class="small-star" aria-hidden="true">✳</span></div>
+          <div class="focus-list">
+            <details open><summary><span class="item-no mono">01</span><span>Simpler processes</span><span class="plus" aria-hidden="true">+</span></summary><div class="detail-body"><p>Redesign how work gets done. Remove unnecessary handoffs, automate routine tasks, and make processes easier for people to follow and improve.</p><span class="tags">Process changes · Less routine · Rapid automation</span></div></details>
+            <details><summary><span class="item-no mono">02</span><span>People & communication</span><span class="plus" aria-hidden="true">+</span></summary><div class="detail-body"><p>Build shared understanding across departments. Organize communication, balance workloads, and teach people how to work with the processes and tools.</p><span class="tags">Teaching people · Communication · Coordination</span></div></details>
+            <details><summary><span class="item-no mono">03</span><span>AI as an exoskeleton</span><span class="plus" aria-hidden="true">+</span></summary><div class="detail-body"><p>Use AI in analysis, knowledge work, teaching people, rapid automation, and ongoing processes. Strengthen the capacity of people and teams to make decisions, act, and adapt as conditions change.</p><span class="tags">Analysis · Learning · Automation · Adaptability</span></div></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="perspective" class="perspective wrap section-pad" aria-labelledby="perspective-title">
+      <div class="section-kicker mono"><span>02 / EXPERIENCE</span><span>BUILDING AND CHANGING HOW COMPANIES WORK</span></div>
+      <div class="experience-heading"><h2 id="perspective-title">Experience in shaping<br><em>how companies work.</em></h2><p>My project experience spans building, changing, and optimizing systems for operational and financial management, processes, and coordination across departments. It helps me work with company changes as a connected system, considering processes, people, information, and tools together.</p></div>
+      <p class="experience-kicker mono">SELECTED AREAS OF EARLIER PROJECT WORK</p>
+      <dl class="experience-list">
+        <div><dt>Building management systems</dt><dd>Productivity management. Store P&amp;L.</dd></div>
+        <div><dt>Organizing store communication</dt><dd>Communication channels, with workload monitoring and balancing.</dd></div>
+        <div><dt>Simplifying & automating processes</dt><dd>Processes on mobile devices. Transition from monthly stocktakes to an annual stocktake.</dd></div>
+        <div><dt>Teaching & developing teams</dt><dd>A training programme for project managers.</dd></div>
+      </dl>
+      <div class="workspace-story">
+        <h3>From a shared workspace<br><em>to an AI exoskeleton.</em></h3>
+        <div class="workspace-columns">
+          <div><span class="mono">THEN / MICROSOFT SHAREPOINT</span><p>When starting work in a company, I used Microsoft SharePoint to quickly organize a shared workspace and communication.</p></div>
+          <div><span class="mono">NOW / AI AS AN EXOSKELETON</span><p>Today, AI tools extend that approach: they help analyse situations, work with knowledge, teach people, rapidly automate routine work, and support ongoing processes.</p><p>AI strengthens the capacity of people and teams, giving the company more scope to act with deeper understanding and adapt to change.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-pad" aria-labelledby="about-title"><div class="wrap">
+      <div class="section-kicker mono"><span>03 / ABOUT</span><span>OLEKSANDR YUKHNO</span></div>
+      <div class="about-grid"><div class="about-mark" aria-hidden="true"><span>o</span><span>y</span><i>↗</i></div><div class="about-copy"><h2 id="about-title">An engineer’s curiosity.<br>A business perspective.</h2><p>I’m a partner at FlipManager, focused on AI-driven business processes and project management. My earlier roles included CTO at Ciklum and leadership of the project management office at Silpo.</p><p>My background combines building and changing company processes and management systems with mentoring project managers and teaching practical project management. Today, AI adds new possibilities to that work.</p><dl class="profile-facts"><div><dt>Current</dt><dd>Partner · FlipManager Platform (FMP)</dd></div><div><dt>Education</dt><dd>Kharkov Politechnical University</dd></div><div><dt>Home</dt><dd>Ukraine</dd></div></dl><a class="text-link" href="https://www.linkedin.com/in/oleksandryukhno/" target="_blank" rel="noopener noreferrer">The full professional story on LinkedIn <span aria-hidden="true">↗</span></a></div></div>
+      <div class="recommendation"><span class="mono">IN THE WORDS OF A COLLEAGUE</span><blockquote>“He is very target oriented person.”</blockquote><div><span>Sergey Zagorulko</span><a href="https://www.linkedin.com/in/oleksandryukhno/" target="_blank" rel="noopener noreferrer">LinkedIn profile ↗</a></div></div>
+    </div></section>
+
+    <section id="connect" class="connect wrap section-pad" aria-labelledby="connect-title"><div class="section-kicker mono"><span>04 / NEXT CONVERSATION</span><span>GOOD QUESTIONS WELCOME.</span></div><div class="connect-grid"><h2 id="connect-title">Something<br>to <em>untangle?</em></h2><div><p>Let’s talk about improving how your company works: its processes, people, communication, and practical use of AI.</p><a class="contact-button" href="https://www.linkedin.com/in/oleksandryukhno/" target="_blank" rel="noopener noreferrer">Find me on LinkedIn <span aria-hidden="true">↗</span></a><button class="copy-link" id="copy-profile" type="button">Copy profile link <span aria-hidden="true">⧉</span></button><span class="copy-status mono" id="copy-status" role="status"></span></div></div></section>
+  </main>
+  <footer class="wrap"><a href="#top" class="footer-name">Oleksandr Yukhno <span>↗</span></a><span class="mono">A PERSONAL INDEX · 2026</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>

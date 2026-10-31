@@ -1,0 +1,11 @@
+# Publish only the website, local preview tools, and deployment configuration.
+*
+!.gitignore
+!README.md
+!package.json
+!server.mjs
+!dist/
+!dist/**
+!.github/
+!.github/workflows/
+!.github/workflows/pages.yml
