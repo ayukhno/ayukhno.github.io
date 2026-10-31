@@ -147,14 +147,14 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* Where I can help */
 .bring { display: grid; gap: 0; }
-.bring li { padding: 28px 0 28px 36px; border-top: 1px solid var(--line); display: grid; gap: 10px; align-content: start; }
+.bring li { padding: 28px 0 28px 40px; border-top: 1px solid var(--line); display: grid; gap: 10px; align-content: start; }
 .bring h3 { position: relative; font-size: 22px; }
-.bring h3::before { content: "+"; position: absolute; left: -36px; top: -0.12em; width: 24px; text-align: center; font-size: 32px; font-weight: 300; line-height: 1; color: var(--accent); }
+.bring h3 .ico { position: absolute; left: -40px; top: -1px; width: 28px; height: 28px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .bring p { color: var(--ink-2); margin: 0; }
 .bring .proof { font-size: 15px; color: var(--muted); border-left: 2px solid var(--mark); padding-left: 12px; margin-top: 6px; }
 @media (min-width: 900px) {
   .bring { grid-template-columns: 1fr 1fr; column-gap: 64px; }
-  .bring li { padding: 32px 0 36px 36px; }
+  .bring li { padding: 32px 0 36px 40px; }
 }
 
 /* Story: sticky rail + chapters */
