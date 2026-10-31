@@ -1,0 +1,5 @@
+Contact: https://github.com/ayukhno/ayukhno.github.io/security/advisories/new
+Expires: 2027-10-31T00:00:00.000Z
+Preferred-Languages: en, uk
+Canonical: https://ayukhno.github.io/.well-known/security.txt
+Policy: https://github.com/ayukhno/ayukhno.github.io/blob/main/SECURITY.md

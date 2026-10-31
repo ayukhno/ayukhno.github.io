@@ -1,0 +1,57 @@
+name: Checks
+
+on:
+  pull_request:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  lint:
+    name: Lint and validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - name: Install linters
+        run: npm ci --ignore-scripts
+      - name: JavaScript syntax, HTML validation, CSS lint
+        run: npm test
+
+  links:
+    name: Links
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Check internal and external links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress
+            --include-fragments
+            --root-dir "${{ github.workspace }}/dist"
+            --exclude "^https://(www\.)?linkedin\.com"
+            --exclude "^https://ayukhno\.github\.io"
+            --exclude "^https://(wa\.me|t\.me)/"
+            --exclude "^(viber|tel|mailto):"
+            --exclude "^https://github\.com/ayukhno/ayukhno\.github\.io/(security|issues)"
+            "dist/**/*.html" "*.md"
+          fail: true

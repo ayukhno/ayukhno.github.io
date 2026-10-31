@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/ayukhno/ayukhno.github.io/security/advisories/new
+    about: Please report security issues privately, not in a public issue.
+  - name: Get in touch about work
+    url: https://www.linkedin.com/in/oleksandryukhno/
+    about: For job offers and conversations, write to me on LinkedIn.

@@ -1,7 +1,7 @@
 /* Story version: an engineer's spec sheet. Tokens first; no raw colours below the token blocks. */
 :root {
   --bg: #f4f4f0;
-  --surface: #ffffff;
+  --surface: #fff;
   --ink: #11161f;
   --ink-2: #353d4a;
   --muted: #586170;
@@ -9,7 +9,7 @@
   --line-strong: #11161f;
   --accent: #1f45c9;
   --accent-soft: #e4e9fb;
-  --on-accent: #ffffff;
+  --on-accent: #fff;
   --mark: #d98e04;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
@@ -50,7 +50,7 @@
 @media (min-width: 768px) { :root { --gutter: 40px; } }
 
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 80px; -webkit-text-size-adjust: 100%; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; text-size-adjust: 100%; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 body {
   margin: 0;
@@ -233,7 +233,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .contact p { color: var(--ink-2); max-width: 52ch; margin-top: 20px; font-size: 19px; }
 footer { border-top: 1px solid var(--line); padding: 24px 0 40px; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; color: var(--muted); font-size: 14px; }
-footer a { color: var(--ink-2); }
+footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 
 @media print {
   .topbar, .rail, .cta, .switches { display: none !important; }
@@ -251,7 +251,6 @@ footer a { color: var(--ink-2); }
 }
 
 .kicker { color: var(--accent); }
-footer a { display: inline-block; padding: 12px 0; }
 
 /* Touch screens: larger targets */
 @media (pointer: coarse) {
@@ -273,3 +272,12 @@ footer a { display: inline-block; padding: 12px 0; }
 }
 
 .chapter .ticks + p { margin-top: 20px; }
+
+/* Contacts next to the portrait */
+.contacts { display: grid; gap: 2px; margin-top: 10px; font-size: 15px; line-height: 1.4; }
+.contacts a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 3px; display: inline-block; padding: 4px 0; }
+.contacts a:hover { color: var(--accent); }
+@media (pointer: coarse) { .contacts a { padding: 10px 0; } }
+.portrait figcaption > .mono { display: block; line-height: 1.5; }
+.facts small { display: block; font: 12px/1.4 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+.two-col .section-head { grid-template-columns: minmax(0, 1fr); }

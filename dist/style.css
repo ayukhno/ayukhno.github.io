@@ -12,7 +12,7 @@
   --about-grid:#d9d8cc;
   --quote-line:#b9bbae;
   --on-dark:var(--paper);
-  --on-dark-muted:rgba(242,239,231,.82);
+  --on-dark-muted:rgb(242 239 231 / 82%);
   --dark-line:#7c8173;
   --accent-on-dark:#ff9f89;
   --diagram-grid:#c9c5bb;
@@ -69,7 +69,7 @@ button:disabled {
   margin-inline:auto;
 }
 .mono {
-  font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  font-family:SFMono-Regular,Consolas,"Liberation Mono",monospace;
   font-size:var(--text-label);
   letter-spacing:.025em;
   line-height:1.6;
@@ -155,7 +155,7 @@ button:disabled {
   gap:26px;
 }
 .lang-switch {
-  font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  font-family:SFMono-Regular,Consolas,"Liberation Mono",monospace;
   font-size:var(--text-label);
   font-weight:600;
   letter-spacing:.06em;
@@ -163,7 +163,7 @@ button:disabled {
   border:1.5px solid var(--ink);
   border-radius:20px;
   color:var(--ink);
-  background:rgba(36,38,32,0.04);
+  background:rgb(36 38 32 / 4%);
   text-decoration:none;
   line-height:1;
   display:inline-flex;
@@ -1211,13 +1211,13 @@ footer .mono {
 .organized .graph-nodes { opacity:1; }
 .organized .diagram-guides { opacity:0; }
 .organized[data-layer="ai"] .ai-support { opacity:.55; }
-.organized #routes path { marker-end:url(#route-arrow); opacity:.65; }
+.organized #routes path { marker-end:url("#route-arrow"); opacity:.65; }
 .organized #routes .feedback-route { stroke-dasharray:5 7; }
-.organized #routes .is-highlighted { stroke:var(--red); opacity:1; marker-end:url(#active-arrow); }
+.organized #routes .is-highlighted { stroke:var(--red); opacity:1; marker-end:url("#active-arrow"); }
 .organized #routes .removed-route { opacity:0; marker-end:none; }
 #routes .removed-route { opacity:0; }
 .organized #routes .is-influence { stroke:var(--ink); stroke-width:2; stroke-dasharray:none; opacity:1; }
-.organized #signal { marker-end:url(#active-arrow); }
+.organized #signal { marker-end:url("#active-arrow"); }
 .graph-label { position:absolute; font-size:var(--text-label); line-height:1.3; background:var(--paper); padding:2px 3px; color:var(--muted); }
 .graph-context { left:0; top:34%; }
 .graph-outcome { right:0; top:34%; }

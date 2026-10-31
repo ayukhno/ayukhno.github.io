@@ -170,7 +170,7 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', showProgress);
 showProgress();
 
-const langSwitch = document.querySelector('.lang-switch');
+const langSwitch = document.querySelector('.lang-switch:not(.story-switch)');
 if (langSwitch) {
   langSwitch.addEventListener('click', (e) => {
     if (window.location.hash) {

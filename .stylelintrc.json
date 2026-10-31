@@ -1,0 +1,40 @@
+{
+  "extends": [
+    "stylelint-config-standard"
+  ],
+  "rules": {
+    "rule-empty-line-before": null,
+    "at-rule-empty-line-before": null,
+    "declaration-empty-line-before": null,
+    "declaration-block-single-line-max-declarations": null,
+    "media-feature-range-notation": "prefix",
+    "value-keyword-case": [
+      "lower",
+      {
+        "ignoreProperties": [
+          "/^--/",
+          "font-family"
+        ]
+      }
+    ],
+    "property-no-vendor-prefix": [
+      true,
+      {
+        "ignoreProperties": [
+          "text-size-adjust"
+        ]
+      }
+    ],
+    "no-descending-specificity": null
+  },
+  "overrides": [
+    {
+      "files": [
+        "dist/style.css"
+      ],
+      "rules": {
+        "no-duplicate-selectors": null
+      }
+    }
+  ]
+}

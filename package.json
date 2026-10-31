@@ -1,7 +1,32 @@
 {
-  "name": "oleksandr-yukhno-personal-site",
-  "version": "1.0.0",
+  "name": "ayukhno.github.io",
+  "version": "1.3.0",
   "private": true,
-  "description": "A self-contained, local personal website prepared with the Sites workflow.",
-  "scripts": { "start": "node server.mjs", "check": "node --check dist/script.js && node --check dist/story/story.js && node --check server.mjs" }
+  "description": "Personal website of Oleksandr Yukhno: classic CV page (UA/EN) and a story version, static and dependency-free, published with GitHub Pages.",
+  "homepage": "https://ayukhno.github.io/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayukhno/ayukhno.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ayukhno/ayukhno.github.io/issues"
+  },
+  "license": "MIT",
+  "author": "Oleksandr Yukhno",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check dist/script.js && node --check dist/story/story.js && node --check server.mjs",
+    "lint:html": "html-validate dist",
+    "lint:css": "stylelint \"dist/**/*.css\"",
+    "test": "npm run check && npm run lint:html && npm run lint:css"
+  },
+  "devDependencies": {
+    "html-validate": "11.16.2",
+    "stylelint": "17.16.0",
+    "stylelint-config-standard": "40.0.0"
+  }
 }
