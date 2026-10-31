@@ -15,5 +15,13 @@
   <url>
     <loc>https://ayukhno.github.io/story/</loc>
     <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/story/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ayukhno.github.io/story/uk.html"/>
+  </url>
+  <url>
+    <loc>https://ayukhno.github.io/story/uk.html</loc>
+    <lastmod>2026-10-31</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/story/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ayukhno.github.io/story/uk.html"/>
   </url>
 </urlset>

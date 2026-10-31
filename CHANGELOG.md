@@ -4,6 +4,10 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- Ukrainian story version at `/story/uk.html` (translated with Gemini, edited by hand); language switch inside the story; the Ukrainian classic page links to it.
+
 ### Changed
 
 - Story: AI projects reordered (DPA, PMO Hub, Autosound); the tuning skill and TCC shown as one project, with TCC as the app on top of the skill.

@@ -8,7 +8,7 @@ Source of **<https://ayukhno.github.io/>**: an online CV that tells the path fro
 
 | Version | Address | Language |
 |---|---|---|
-| Story: what I bring, the career story, AI projects | [`/story/`](https://ayukhno.github.io/story/) | English |
+| Story: what I bring, the career story, AI projects | [`/story/`](https://ayukhno.github.io/story/) · [`/story/uk.html`](https://ayukhno.github.io/story/uk.html) | English · Ukrainian |
 | Classic | [`/`](https://ayukhno.github.io/) · [`/en.html`](https://ayukhno.github.io/en.html) | Ukrainian · English |
 
 The site is static HTML, CSS and a little JavaScript. It has no framework, no build step, no runtime dependencies, no external fonts, no cookies and no analytics.
@@ -20,7 +20,7 @@ dist/                      published as-is to GitHub Pages
 ├── index.html             classic version, Ukrainian (default)
 ├── en.html                classic version, English
 ├── style.css, script.js   classic styles and diagram logic
-├── story/                 story version: index.html, story.css, story.js, assets/
+├── story/                 story version: index.html (EN), uk.html (UA), story.css, story.js, assets/
 ├── assets/                site mark, social preview image
 ├── 404.html, robots.txt, sitemap.xml
 └── .well-known/security.txt
