@@ -1287,3 +1287,12 @@ footer .mono {
     margin-right:20px;
   }
 }
+.story-switch { gap:6px; }
+.masthead-actions:has(.story-switch) { gap:12px; }
+@media (max-width: 420px) {
+  .story-switch { padding:5px 9px; }
+  .masthead-actions:has(.story-switch) { gap:8px; }
+}
+@media (max-width: 480px) {
+  .masthead:has(.story-switch) .nav-contact { display:none; }
+}

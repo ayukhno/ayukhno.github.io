@@ -3,5 +3,5 @@
   "version": "1.0.0",
   "private": true,
   "description": "A self-contained, local personal website prepared with the Sites workflow.",
-  "scripts": { "start": "node server.mjs", "check": "node --check dist/script.js && node --check server.mjs" }
+  "scripts": { "start": "node server.mjs", "check": "node --check dist/script.js && node --check dist/story/story.js && node --check server.mjs" }
 }
