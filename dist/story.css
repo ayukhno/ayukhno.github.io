@@ -285,9 +285,12 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 /* First steps and education: two columns on wide screens */
 @media (min-width: 900px) {
   .steps-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
-  .edu-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
 }
 
 /* Offer line and work terms */
 .offer { margin: 28px 0 0; padding: 16px 20px; background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 4px; font-size: clamp(17px, 1.4vw, 19px); font-weight: 600; color: var(--ink); max-width: 72ch; }
 .work-terms { display: block; margin-top: 6px; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+
+.edu-cols { display: grid; gap: 32px; }
+.edu-h { font: 600 12.5px/1.4 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+@media (min-width: 900px) { .edu-cols { grid-template-columns: 1fr 1fr; column-gap: 64px; } }
