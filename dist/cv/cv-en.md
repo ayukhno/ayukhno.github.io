@@ -21,19 +21,19 @@ AI Transformation · Next-generation PMO · Operational Transformation
 
 ## Experience
 
-### Partner (co-founder), AI-products startup — FlipManager (Now)
+### Partner (co-founder), AI-products startup, FlipManager (Now)
 
 - Two-partner startup building an AI exoskeleton for managers: four products on one base (DPA personal assistant, DBA small-business assistant, DPC corporate assistant, DCC Digital Company Compass).
 - Lead the personal and small-business assistants; designing PMO Hub, an AI-run project office with fixed AI roles (product owner, architect, tester, design critic, auditor) and cross-checks by a second AI vendor.
-- PMO Hub's prototype built hub-kit (the DPA base) and both public Autosound projects in 2026.
+- Built hub-kit (the DPA base) and both public Autosound projects with PMO Hub's prototype in 2026.
 
-### Author — Autosound (own projects, public on GitHub) (2026)
+### Author, Autosound (own projects, public on GitHub) (2026)
 
 - Claude skill that turns AI into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.
 - TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; works with different AI models directly or through OMP.
 - Results in 2026: five awards for my own car at EMMA and AYA championships; a user's car took first place at the AYA Finale.
 
-### Director of the Project Management Office (reporting to the COO) — Silpo (From 2012)
+### Director of the Project Management Office (reporting to the COO), Silpo (From 2012)
 
 - Annual planning and budgeting of store and production headcount, payroll and productivity, driven by format, processes and planned revenue.
 - Store P&L: the costs a store manager controls became visible by the 5th of the following month.
@@ -42,37 +42,37 @@ AI Transformation · Next-generation PMO · Operational Transformation
 - Expert in a McKinsey working group on operational processes; projects on promotions, pricing, markdowns and assortment; mobile platform for store processes; one annual stocktake instead of monthly ones.
 - Built and taught a practical project management course for retail.
 
-### Director of the IT Office (reporting to the executive director) — Silpo (2008–2012)
+### Director of the IT Office (reporting to the executive director), Silpo (2008–2012)
 
 - Standards, checklists and procedures for regional IT teams supporting the stores.
 - Store processes described; document flow between stores and offices put in order, with a new records department.
 - Labour standards; staff and checkout schedules planned in half-hour slots from customer traffic; queue alerts by SMS.
 - More than 20 operating legal entities merged into one.
 
-### Regional Manager, Eastern Europe (outstaffed from Ciklum) — Scanvaegt International (2006–2007)
+### Regional Manager, Eastern Europe (outstaffed from Ciklum), Scanvaegt International (2006–2007)
 
 - Industrial weighing and processing systems: equipment supply, commissioning and hardware and software roll-outs while large plants were being built, including the MHP slaughter plant in Kaniv.
 
-### CTO — Ciklum (2005–2006)
+### CTO, Ciklum (2005–2006)
 
 - IT infrastructure, standards and procedures, planning and budgeting, presale and hiring support for clients.
 - The company grew from about 50 to 250 people while I was there.
 
-### Project Manager, then Manager for International Clients — ProFIX (2002–2005)
+### Project Manager, then Manager for International Clients, ProFIX (2002–2005)
 
 - Management of banking software projects and international client accounts.
 
-### Banking software — ProFIX (1999–2002)
+### Banking software, ProFIX (1999–2002)
 
 - Developing and delivering banking systems.
 
-### Chief Engineer, Main Settlement Centre — Bank Ukraina (1998–1999)
+### Chief Engineer, Main Settlement Centre, Bank Ukraina (1998–1999)
 
 
-### Team Lead and Project Manager, banking automation — Avan (1996–1998)
+### Team Lead and Project Manager, banking automation, Avan (1996–1998)
 
 
-### Software Developer (software for banks from 1995) — Escape (1994–1996)
+### Software Developer (software for banks from 1995), Escape (1994–1996)
 
 
 ## Education
