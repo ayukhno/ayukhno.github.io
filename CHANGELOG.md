@@ -4,6 +4,16 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Added
+
+- Offer line under the hero facts: projects and roles with ownership of the result.
+- Work terms under the portrait: remote, hybrid, travel, open to relocation within Europe, working English.
+- IMD Business School in education.
+
+### Changed
+
+- "My view of what business needs today" and "My view of the first 100 days" (no timelines; data-security readiness is assessed first).
+
 ### Changed
 
 - "How I would start in a new role" shown as four steps in two columns; "Education and training" is its own section (05), contact moves to 06.

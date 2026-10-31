@@ -287,3 +287,7 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
   .steps-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
   .edu-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 64px; }
 }
+
+/* Offer line and work terms */
+.offer { margin: 28px 0 0; padding: 16px 20px; background: var(--accent-soft); border-left: 3px solid var(--accent); border-radius: 4px; font-size: clamp(17px, 1.4vw, 19px); font-weight: 600; color: var(--ink); max-width: 72ch; }
+.work-terms { display: block; margin-top: 6px; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
