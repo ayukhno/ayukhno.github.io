@@ -12,9 +12,10 @@ Run `npm start` and open http://127.0.0.1:4173. Stop with Ctrl+C. You can also o
 
 ## Edit and publish
 
-- `dist/index.html`: copy, sections, and links.
+- `dist/index.html`: copy, sections, and links (Ukrainian).
+- `dist/en.html`: copy, sections, and links (English).
 - `dist/style.css`: typography, colors, and responsive layouts.
-- `dist/script.js`: interactive diagram, clipboard, and reading progress.
+- `dist/script.js`: interactive diagram, clipboard, language switching, and reading progress.
 - `dist/assets/`: portrait and site mark.
 
 Push changes to `main` to publish automatically through `.github/workflows/pages.yml`. Only `dist/` is uploaded to GitHub Pages. Local research notes and design drafts are excluded from this repository.

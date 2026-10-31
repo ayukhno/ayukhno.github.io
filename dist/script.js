@@ -6,6 +6,8 @@ const figure = document.querySelector('.system-figure');
 const untangle = document.querySelector('#untangle');
 const story = document.querySelector('#diagram-story');
 const layerButtons = [...document.querySelectorAll('.diagram-layers button')];
+const isUk = document.documentElement.lang === 'uk';
+
 const connectedPaths = [
   'M45 215 C90 215 110 110 190 110',
   'M45 215 C90 215 110 320 190 320',
@@ -38,7 +40,33 @@ const routeStates = connectedPaths.map((connected, index) => {
   routes.append(path);
   return { path, tangled, connected, index };
 });
-const layers = {
+
+const layers = isUk ? {
+  processes: {
+    title: 'Спрощення процесів',
+    text: 'Прибрати зайві кроки та передачі завдань. Автоматизувати рутину, щоб люди зосередилися на рішеннях, де вони дійсно потрібні.',
+    highlighted: [0, 2, 5, 9],
+    signal: 'M45 215 C90 215 110 110 190 110 C250 70 310 70 370 110 C370 180 370 250 370 320 C455 320 470 215 535 215'
+  },
+  people: {
+    title: 'Навчання людей. Об’єднання команд.',
+    text: 'Показати людям, як працює система. Уточнити відповідальність, налагодити комунікацію та залучати зворотний зв’язок до спільних рішень.',
+    highlighted: [1, 7, 5, 9],
+    description: 'Маршрут «Люди» проходить послідовно: Контекст, Люди, Аналіз, Рішення та Результат. Інші залежності та зворотний зв’язок залишаються видимими.',
+    signal: 'M45 215 C90 215 110 320 190 320 C250 320 310 110 370 110 C370 180 370 250 370 320 C455 320 470 215 535 215'
+  },
+  ai: {
+    title: 'ШІ як екзоскелет',
+    text: 'Підтримує аналіз, роботу зі знаннями та навчання людей. Допомагає швидко автоматизувати рутину й адаптувати щоденні процеси. Відповідальність за рішення залишається за людьми.',
+    highlighted: [14, 5, 11, 16],
+    visible: [14, 5, 11, 16, 3, 1, 12],
+    dashed: [1, 12],
+    influences: [3],
+    description: 'Маршрут «ШІ» проходить через Контекст, Аналіз із підтримкою ШІ на цьому зв’язку, Рішення, Процеси та Результат. Люди впливають на Рішення через прямий суцільний зв’язок. Зв’язки від Контексту до Людей та від Аналізу до Людей — штрихові.',
+    legend: 'Суцільні лінії показують основний маршрут і вплив людей на рішення. Штрихові лінії з’єднують контекст та аналіз із людьми.',
+    signal: 'M45 215 C95 10 280 5 370 110 C370 180 370 250 370 320 C330 230 230 200 190 110 C300 190 420 215 535 215'
+  }
+} : {
   processes: {
     title: 'Simpler processes',
     text: 'Remove unnecessary steps and handoffs. Automate routine work so people can focus on the decisions that need them.',
@@ -64,6 +92,7 @@ const layers = {
     signal: 'M45 215 C95 10 280 5 370 110 C370 180 370 250 370 320 C330 230 230 200 190 110 C300 190 420 215 535 215'
   }
 };
+
 let organized = false;
 function selectLayer(name) {
   const layer = layers[name];
@@ -79,12 +108,13 @@ function selectLayer(name) {
   });
   if (organized) {
     signal.setAttribute('d', layer.signal);
-    document.querySelector('#diagram-desc').textContent = layer.description || 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain.';
+    document.querySelector('#diagram-desc').textContent = layer.description || (isUk ? 'Пов’язаний граф з’єднує контекст із процесами та людьми, далі — аналіз, людські рішення та результат. Криволінійні та штрихові шляхи зворотного зв’язку залишаються.' : 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain.');
   }
   document.querySelector('#diagram-explanation h3').textContent = layer.title;
   document.querySelector('#diagram-explanation p').textContent = layer.text;
-  document.querySelector('.graph-legend').textContent = layer.legend || 'Connected lines show dependencies. Dashed lines bring feedback into the work. People remain responsible for decisions.';
+  document.querySelector('.graph-legend').textContent = layer.legend || (isUk ? 'Суцільні лінії показують залежності. Штрихові повертають зворотний зв’язок у роботу. Відповідальність за рішення залишається за людьми.' : 'Connected lines show dependencies. Dashed lines bring feedback into the work. People remain responsible for decisions.');
 }
+
 function setDiagram(nextState) {
   organized = nextState;
   untangle.setAttribute('aria-pressed', String(organized));
@@ -93,29 +123,31 @@ function setDiagram(nextState) {
   routeStates.forEach(({ path, tangled, connected, index }) => {
     path.setAttribute('d', organized ? connected : tangled);
   });
-  document.querySelector('#diagram-status').textContent = organized ? '02 / CONNECTED & ADAPTABLE' : '01 / TANGLED WORK';
-  untangle.innerHTML = organized ? 'Show the tangle <span aria-hidden="true">↺</span>' : 'See what changes <span aria-hidden="true">↗</span>';
-  document.querySelector('.figure-note').innerHTML = organized ? 'a system you can understand,<br>work with, and change.' : 'there’s a useful system<br>in here somewhere.';
-  document.querySelector('#diagram-desc').textContent = organized ? 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain. Explore Processes, People, and AI for the contributions of each.' : 'An illustrative network of crossing lines. Choose See what changes to reveal processes, people, analysis, human decisions, and feedback.';
+  document.querySelector('#diagram-status').textContent = organized ? (isUk ? '02 / ПОВ’ЯЗАНА ТА АДАПТИВНА' : '02 / CONNECTED & ADAPTABLE') : (isUk ? '01 / ЗАПЛУТАНА РОБОТА' : '01 / TANGLED WORK');
+  untangle.innerHTML = organized ? (isUk ? 'Показати заплутаність <span aria-hidden="true">↺</span>' : 'Show the tangle <span aria-hidden="true">↺</span>') : (isUk ? 'Подивитися зміни <span aria-hidden="true">↗</span>' : 'See what changes <span aria-hidden="true">↗</span>');
+  document.querySelector('.figure-note').innerHTML = organized ? (isUk ? 'система, яку можна зрозуміти,<br>з якою можна працювати і яку можна змінювати.' : 'a system you can understand,<br>work with, and change.') : (isUk ? 'десь тут є корисна<br>система.' : 'there’s a useful system<br>in here somewhere.');
+  document.querySelector('#diagram-desc').textContent = organized ? (isUk ? 'Пов’язаний граф з’єднує контекст із процесами та людьми, далі — аналіз, людські рішення та результат. Криволінійні та штрихові шляхи зворотного зв’язку зберігаються. Досліджуйте Процеси, Люди та ШІ для розуміння внеску кожного.' : 'A connected graph links context to processes and people, then analysis, human decisions, and outcomes. Curved and dashed feedback paths remain. Explore Processes, People, and AI for the contributions of each.') : (isUk ? 'Ілюстративна мережа ліній, що перетинаються. Натисніть «Подивитися зміни», щоб побачити процеси, людей, аналіз, людські рішення та зворотний зв’язок.' : 'An illustrative network of crossing lines. Choose See what changes to reveal processes, people, analysis, human decisions, and feedback.');
   selectLayer('processes');
   if (!organized) signal.setAttribute('d', 'M45 215 C170 15 425 405 535 215');
 }
+
 untangle.addEventListener('click', () => setDiagram(!organized));
 layerButtons.forEach(button => button.addEventListener('click', () => selectLayer(button.dataset.layer)));
+
 const copyButton = document.querySelector('#copy-profile');
 copyButton.addEventListener('click', async () => {
   const url = 'https://www.linkedin.com/in/oleksandryukhno/';
   try {
     if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
     await navigator.clipboard.writeText(url);
-    document.querySelector('#copy-status').textContent = 'Copied. See you there.';
+    document.querySelector('#copy-status').textContent = isUk ? 'Скопійовано. До зустрічі.' : 'Copied. See you there.';
   } catch {
-    document.querySelector('#copy-status').textContent = 'Select and copy the link below.';
+    document.querySelector('#copy-status').textContent = isUk ? 'Виділіть і скопіюйте посилання нижче.' : 'Select and copy the link below.';
     let fallback = document.querySelector('#profile-url');
     if (!fallback) {
       fallback = document.createElement('input');
       fallback.id = 'profile-url';
-      fallback.setAttribute('aria-label', 'Profile URL to copy');
+      fallback.setAttribute('aria-label', isUk ? 'Посилання на профіль для копіювання' : 'Profile URL to copy');
       fallback.readOnly = true;
       fallback.value = url;
       fallback.className = 'profile-url';
@@ -125,6 +157,7 @@ copyButton.addEventListener('click', async () => {
     fallback.select();
   }
 });
+
 let scrollFrame = false;
 function showProgress() {
   const distance = document.documentElement.scrollHeight - window.innerHeight;
@@ -136,3 +169,14 @@ window.addEventListener('scroll', () => {
 }, { passive: true });
 window.addEventListener('resize', showProgress);
 showProgress();
+
+const langSwitch = document.querySelector('.lang-switch');
+if (langSwitch) {
+  langSwitch.addEventListener('click', (e) => {
+    if (window.location.hash) {
+      e.preventDefault();
+      const target = langSwitch.getAttribute('href').split('#')[0];
+      window.location.href = target + window.location.hash;
+    }
+  });
+}

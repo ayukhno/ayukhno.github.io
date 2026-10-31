@@ -149,6 +149,25 @@ button:disabled {
   margin-left:32px;
   color:var(--red);
 }
+.masthead-actions {
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+.lang-switch {
+  font-size:var(--text-label);
+  letter-spacing:.05em;
+  padding:4px 10px;
+  border:1px solid var(--ink);
+  color:var(--ink);
+  text-decoration:none;
+  line-height:1;
+  transition:background .2s, color .2s;
+}
+.lang-switch:hover {
+  background:var(--ink);
+  color:var(--paper);
+}
 .hero {
   padding-top:32px;
 }
@@ -746,7 +765,7 @@ footer .mono {
 }
 
 /* Reading scale and controls share the same tokens at every viewport. */
-.masthead nav a,.nav-contact,.text-link,.copy-link,footer a,.recommendation a {
+.masthead nav a,.nav-contact,.lang-switch,.text-link,.copy-link,footer a,.recommendation a {
   min-height:44px;
   display:inline-flex;
   align-items:center;
@@ -1119,6 +1138,8 @@ footer .mono {
   .principles { gap:24px; }
 }
 @media(max-width:700px) {
+  .masthead-actions { gap:12px; }
+  .lang-switch { padding:4px 8px; font-size:13px; }
   .nav-contact { gap:12px; }
   .nav-contact span { margin-left:0; }
   .hero-grid,.focus-grid,.about-grid,.connect-grid,.perspective-heading,.recommendation { grid-template-columns:minmax(0,1fr); }
