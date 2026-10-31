@@ -6,7 +6,7 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Changed
 
-- "Software for banks" runs to 2001 and includes ProFIX 1999–2001; "Projects and clients" starts in 2001 with management at ProFIX.
+- "Software for banks" runs to 2002 and includes ProFIX 1999–2002; "Projects and clients" starts in 2002 with management at ProFIX.
 
 ## [1.4.0] - 2026-10-31
 
