@@ -4,6 +4,12 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-10-31
+
+### Removed
+
+- The classic version (old slogan page, diagram, its styles, script and the 2.7 MB portrait). The story CV is now the whole site.
+
 ### Added
 
 - Ukrainian story version at `/story/uk.html` (translated with Gemini, edited by hand); language switch inside the story; the Ukrainian classic page links to it.
@@ -19,6 +25,10 @@ All notable changes to this website are documented here. The format follows [Kee
 - Story: AI projects reordered (DPA, PMO Hub, Autosound); the tuning skill and TCC shown as one project, with TCC as the app on top of the skill.
 - Story: the Autosound case now explains the skill as a deterministic, multi-factor process and TCC as a multilingual, cross-platform application.
 - Story: "Scaling AI" step explains the three ways to roll out AI (new solutions, personal work, a company-wide tool).
+
+### Changed (structure)
+
+- `/` is the Ukrainian CV and `/en.html` the English CV; `/story/` and `/story/uk.html` redirect there.
 
 ## [1.3.1] - 2026-10-31
 
@@ -81,7 +91,8 @@ All notable changes to this website are documented here. The format follows [Kee
 
 - First public version of the personal website, deployed to GitHub Pages.
 
-[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.4.0...HEAD
+[1.4.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.1.0...v1.2.0

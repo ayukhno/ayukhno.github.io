@@ -78,7 +78,6 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .brand { font-weight: 650; text-decoration: none; white-space: nowrap; }
 .brand span { color: var(--muted); font-weight: 400; }
 .brand i { font-style: normal; }
-@media (max-width: 420px) { .brand .first { display: none; } }
 .topnav { display: none; gap: 22px; margin-left: auto; }
 .topnav a { text-decoration: none; color: var(--ink-2); font-size: 15px; }
 .topnav a:hover, .topnav a[aria-current="true"] { color: var(--accent); }

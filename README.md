@@ -6,10 +6,10 @@
 
 Source of **<https://ayukhno.github.io/>**: an online CV that tells the path from electronics and software through project delivery and retail operations to applied AI.
 
-| Version | Address | Language |
-|---|---|---|
-| Story: what I bring, the career story, AI projects | [`/story/`](https://ayukhno.github.io/story/) · [`/story/uk.html`](https://ayukhno.github.io/story/uk.html) | English · Ukrainian |
-| Classic | [`/`](https://ayukhno.github.io/) · [`/en.html`](https://ayukhno.github.io/en.html) | Ukrainian · English |
+| Language | Address |
+|---|---|
+| Ukrainian | [`/`](https://ayukhno.github.io/) |
+| English | [`/en.html`](https://ayukhno.github.io/en.html) |
 
 The site is static HTML, CSS and a little JavaScript. It has no framework, no build step, no runtime dependencies, no external fonts, no cookies and no analytics.
 
@@ -17,11 +17,11 @@ The site is static HTML, CSS and a little JavaScript. It has no framework, no bu
 
 ```text
 dist/                      published as-is to GitHub Pages
-├── index.html             classic version, Ukrainian (default)
-├── en.html                classic version, English
-├── style.css, script.js   classic styles and diagram logic
-├── story/                 story version: index.html (EN), uk.html (UA), story.css, story.js, assets/
-├── assets/                site mark, social preview image
+├── index.html             CV in Ukrainian (default)
+├── en.html                CV in English
+├── story.css, story.js    styles and section highlighting
+├── assets/                portrait, site mark, social preview image
+├── story/                 redirects from the old /story/ addresses
 ├── 404.html, robots.txt, sitemap.xml
 └── .well-known/security.txt
 server.mjs                 local preview server (Node.js, no dependencies)
