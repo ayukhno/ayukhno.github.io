@@ -7,6 +7,7 @@ All notable changes to this website are documented here. The format follows [Kee
 ### Changed
 
 - Story: AI projects reordered (DPA, PMO Hub, Autosound); the tuning skill and TCC shown as one project, with TCC as the app on top of the skill.
+- Story: the Autosound case now explains the skill as a deterministic, multi-factor process and TCC as a multilingual, cross-platform application.
 
 ## [1.3.1] - 2026-10-31
 
