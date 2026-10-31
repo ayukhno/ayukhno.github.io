@@ -1,0 +1,25 @@
+# Oleksandr Yukhno
+
+> 30+ years across electronics, software, project delivery and retail operations. Former CTO at Ciklum and Director of the IT office and the project management office at Silpo, one of Ukraine's largest food retail chains (about 120 → 300 stores, around 40,000 people during my years). Today a partner at FlipManager, an AI-products startup, building AI assistants and an AI-run project office. Interested in projects and roles in AI adoption, operational transformation and building a next-generation PMO, where I own the result.
+
+Online CV in English and Ukrainian. Contact via LinkedIn only.
+
+## CV
+
+- [CV in English (web)](https://ayukhno.github.io/en.html): what I can help with, career story, AI projects, first 100 days
+- [CV in Ukrainian (web)](https://ayukhno.github.io/): the same content in Ukrainian
+- [CV in English (Markdown)](https://ayukhno.github.io/cv/cv-en.md): plain text version for AI systems
+- [CV in Ukrainian (Markdown)](https://ayukhno.github.io/cv/cv-uk.md): plain text version for AI systems
+- [CV in English (PDF)](https://ayukhno.github.io/cv/Oleksandr-Yukhno-CV-EN.pdf)
+- [CV in Ukrainian (PDF)](https://ayukhno.github.io/cv/Oleksandr-Yukhno-CV-UA.pdf)
+
+## Projects
+
+- [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): AI as a deterministic seven-phase process for car-audio DSP tuning
+- [Autosound TCC](https://github.com/ayukhno/autosound-tcc): multilingual desktop app for macOS and Windows on top of the skill
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/oleksandryukhno/)
+
+*Made with AI, for AI readers. Checked by a human.*

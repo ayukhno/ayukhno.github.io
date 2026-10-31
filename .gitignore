@@ -16,6 +16,10 @@
 !package.json
 !package-lock.json
 !server.mjs
+!tools/
+!tools/cv/
+!tools/cv/build_cv.py
+!tools/cv/render_pdf.sh
 !dist/
 !dist/**
 !.github/

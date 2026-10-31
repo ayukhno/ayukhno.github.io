@@ -21,10 +21,13 @@ dist/                      published as-is to GitHub Pages
 ├── en.html                CV in English
 ├── story.css, story.js    styles and section highlighting
 ├── assets/                portrait, site mark, social preview image
+├── cv/                    downloadable CV (PDF, EN/UA) and Markdown versions for AI systems
+├── llms.txt               summary and links for AI assistants
 ├── story/                 redirects from the old /story/ addresses
 ├── 404.html, robots.txt, sitemap.xml
 └── .well-known/security.txt
 server.mjs                 local preview server (Node.js, no dependencies)
+tools/cv/                  builds dist/cv/* and dist/llms.txt from one source of facts
 .github/workflows/         checks, deploy, CodeQL
 ```
 
@@ -37,6 +40,15 @@ npm start      # preview at http://127.0.0.1:4173 (PORT=… to change)
 ```
 
 You can also open `dist/index.html` directly in a browser.
+
+## Downloadable CV
+
+The PDF and Markdown CVs come from one source of facts in [`tools/cv/build_cv.py`](tools/cv/build_cv.py). After changing facts on the site, update that file too and rebuild:
+
+```sh
+python3 tools/cv/build_cv.py   # Markdown versions and llms.txt
+sh tools/cv/render_pdf.sh      # PDFs (needs the gstack headless browser)
+```
 
 ## Checks
 

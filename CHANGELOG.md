@@ -6,6 +6,11 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Added
 
+- Downloadable CV in PDF (English and Ukrainian) in the classic HR format, with download buttons by the portrait and in the contact section.
+- Markdown CVs and `llms.txt` so AI assistants and answer engines can read the CV; richer schema.org data (name variants, positions, education, languages, skills) and search descriptions.
+
+### Added
+
 - Offer line under the hero facts: projects and roles with ownership of the result.
 - Work terms under the portrait: remote, hybrid, travel, open to relocation within Europe, working English.
 - IMD Business School in education.
