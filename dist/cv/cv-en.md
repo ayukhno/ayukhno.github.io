@@ -2,7 +2,7 @@
 
 AI Transformation · Next-generation PMO · Operational Transformation
 
-- Based in Poland · open to relocation within Europe · remote, hybrid, travel
+- Currently in Poland · open to relocation within Europe · remote, hybrid, travel
 - LinkedIn: https://www.linkedin.com/in/oleksandryukhno/
 - Website: https://ayukhno.github.io/en.html
 
@@ -29,7 +29,7 @@ AI Transformation · Next-generation PMO · Operational Transformation
 
 ### Author, Autosound (own projects, public on GitHub) (2026)
 
-- Claude skill that turns AI into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.
+- Method gathered from approaches, documentation, libraries and my own and friends' experience; a Claude skill turns it into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.
 - TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; works with different AI models directly or through OMP.
 - Results in 2026: five awards for my own car at EMMA and AYA championships; a user's car took first place at the AYA Finale.
 
@@ -97,4 +97,4 @@ Built my own house and designed its engineering systems; the house and my apartm
 
 ---
 
-*P.S. AI assembled this file from my website, which I built together with AI: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours with Claude building and Gemini reviewing and translating, to a proofread site online, for about $40 of AI usage. I set the direction and checked every line: the same way I would run AI projects in your company.*
+*P.S. AI assembled this document from my website, which we also built together: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours of work in which Claude wrote the code and Gemini reviewed and translated. The result: a proofread site online for about $40 in tokens. The direction and the check of every line are mine. That is how I would run AI projects in your company.*

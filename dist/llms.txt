@@ -23,4 +23,4 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 - [LinkedIn](https://www.linkedin.com/in/oleksandryukhno/)
 
-*P.S. AI assembled this file from my website, which I built together with AI: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours with Claude building and Gemini reviewing and translating, to a proofread site online, for about $40 of AI usage. I set the direction and checked every line: the same way I would run AI projects in your company.*
+*P.S. AI assembled this document from my website, which we also built together: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours of work in which Claude wrote the code and Gemini reviewed and translated. The result: a proofread site online for about $40 in tokens. The direction and the check of every line are mine. That is how I would run AI projects in your company.*

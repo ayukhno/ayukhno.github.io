@@ -4,6 +4,10 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Changed
+
+- Language pass: humanizer rules for English, a native-editor pass for Ukrainian; owner-approved rewording ("Currently in Poland", four challenges, how the tuning method was built, security as a possible task of its own, "What I have built with AI", a career-long change of view in the Experience intro, a plainer P.S.).
+
 ### Added
 
 - "This website" case in AI in practice: a timeline (idea on Wednesday, Codex prototype, eight hours to a proofread site), about $40 of AI usage, Codex prototype, Claude build, Gemini review and translation.

@@ -21,7 +21,7 @@ CV = {
         "name": "Oleksandr Yukhno",
         "title": "AI Transformation · Next-generation PMO · Operational Transformation",
         "meta": [
-            "Based in Poland · open to relocation within Europe · remote, hybrid, travel",
+            "Currently in Poland · open to relocation within Europe · remote, hybrid, travel",
             f"LinkedIn: {LINKEDIN}",
             f"Website: {SITE}en.html",
         ],
@@ -52,7 +52,7 @@ CV = {
                 "Built hub-kit (the DPA base) and both public Autosound projects with PMO Hub's prototype in 2026.",
             ]),
             ("Autosound (own projects, public on GitHub)", "Author", "2026", [
-                "Claude skill that turns AI into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.",
+                "Method gathered from approaches, documentation, libraries and my own and friends' experience; a Claude skill turns it into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.",
                 "TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; works with different AI models directly or through OMP.",
                 "Results in 2026: five awards for my own car at EMMA and AYA championships; a user's car took first place at the AYA Finale.",
             ]),
@@ -102,14 +102,14 @@ CV = {
         "h_lang": "Languages",
         "lang": "Ukrainian (native), English (working)",
         "h_other": "Also",
-        "footer": "P.S. AI assembled this file from my website, which I built together with AI: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours with Claude building and Gemini reviewing and translating, to a proofread site online, for about $40 of AI usage. I set the direction and checked every line: the same way I would run AI projects in your company.",
+        "footer": "P.S. AI assembled this document from my website, which we also built together: the idea on Wednesday, two days of thinking and a prototype with Codex, then eight hours of work in which Claude wrote the code and Gemini reviewed and translated. The result: a proofread site online for about $40 in tokens. The direction and the check of every line are mine. That is how I would run AI projects in your company.",
         "other": "Built my own house and designed its engineering systems; the house and my apartment run as smart homes on a Raspberry Pi server with Home Assistant, now maintained and developed by AI.",
     },
     "uk": {
         "name": "Олександр Юхно",
         "title": "ШІ-трансформація · PMO нового покоління · Операційна трансформація",
         "meta": [
-            "Базуюся в Польщі · відкритий до релокації в Європі · віддалено, гібрид, відрядження",
+            "Зараз у Польщі · готовий до переїзду в межах Європи · віддалено, гібрид, відрядження",
             f"LinkedIn: {LINKEDIN}",
             f"Сайт: {SITE}",
         ],
@@ -140,7 +140,7 @@ CV = {
                 "На прототипі PMO Hub у 2026 році створено hub-kit (основу DPA) і обидва публічні проєкти Autosound.",
             ]),
             ("Autosound (власні проєкти, публічні на GitHub)", "Автор", "2026", [
-                "Скіл для Claude, що перетворює ШІ на детерміновану систему із семи фаз для налаштування автомобільного звукового процесора за реальними замірами; понад 120 релізів з червня 2026 року.",
+                "Метод, зібраний із підходів, документації, бібліотек, власного досвіду й досвіду знайомих; скіл для Claude перетворює його на детерміновану систему із семи фаз для налаштування автомобільного звукового процесора за реальними замірами; понад 120 релізів з червня 2026 року.",
                 "TCC: багатомовна настільна програма для macOS і Windows поверх скіла; понад 4 300 автотестів; працює з різними моделями ШІ напряму або через OMP.",
                 "Результати 2026 року: п'ять нагород для мого авто на чемпіонатах EMMA та AYA; авто користувача посіло перше місце на фіналі AYA.",
             ]),
@@ -190,7 +190,7 @@ CV = {
         "h_lang": "Мови",
         "lang": "українська (рідна), англійська (робоча)",
         "h_other": "Також",
-        "footer": "P.S. Цей файл зібрав ШІ на основі мого сайту, який я створив разом із ШІ: задум у середу, два дні роздумів і прототип з Codex, потім вісім годин, де Claude будував, а Gemini критикував і перекладав, — і вичитаний сайт онлайн приблизно за $40 на ШІ. Напрям і перевірка кожного рядка — мої. Так само я вестиму ШІ-проєкти у вашій компанії.",
+        "footer": "P.S. Цей документ ШІ зібрав на основі мого сайту, який ми теж створили разом: задум у середу, два дні роздумів і прототип із Codex, далі вісім годин роботи, де Claude писав код, а Gemini критикував і перекладав. Результат: вичитаний сайт онлайн і близько $40 на токени. Напрям і перевірка кожного рядка — мої. Так само я вестиму ШІ-проєкти у вашій компанії.",
         "other": "Збудував власний дім і спроєктував його інженерні системи; у будинку й квартирі працює система «розумний дім» на сервері Raspberry Pi з Home Assistant, яку тепер підтримує й розвиває ШІ.",
     },
 }
