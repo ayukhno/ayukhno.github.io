@@ -271,3 +271,5 @@ footer a { display: inline-block; padding: 12px 0; }
   .hero-side.portrait img { width: 96px; height: 120px; }
   .hero-side.portrait figcaption { margin: 0; }
 }
+
+.chapter .ticks + p { margin-top: 20px; }
