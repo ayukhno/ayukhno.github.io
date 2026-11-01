@@ -143,6 +143,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .section-head .mono { color: var(--accent); }
 .section-head h2 { font-size: clamp(30px, 4vw, 48px); max-width: 20ch; }
 .section-head p { color: var(--ink-2); max-width: 60ch; margin: 8px 0 0; }
+.section-head:not(:has(p)) { grid-template-columns: minmax(0, 1fr); }
+.section-head:not(:has(p)) h2 { max-width: none; }
 
 /* Where I can help */
 .bring { display: grid; gap: 0; }
@@ -228,7 +230,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 
 /* Contact */
 .contact { padding: 80px 0 96px; }
-.contact h2 { font-size: clamp(34px, 5vw, 60px); max-width: 16ch; }
+.contact h2 { font-size: clamp(34px, 5vw, 60px); max-width: 34ch; }
 .contact p { color: var(--ink-2); max-width: 52ch; margin-top: 20px; font-size: 19px; }
 footer { border-top: 1px solid var(--line); padding: 24px 0 40px; }
 footer .wrap { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; color: var(--muted); font-size: 14px; }
