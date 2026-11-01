@@ -4,8 +4,11 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+## [1.5.0] - 2026-11-01
+
 ### Changed
 
+- Headings: section headings balance their lines so the last word is not left alone; "Education and professional development" fits on one line, the contact heading on two; "What I have built / with AI" breaks the same way in both languages. Stylesheet version bumped so browsers load the new styles.
 - English is now the default page at `/`; Ukrainian moved to `/uk.html`. The old `/en.html` redirects to `/`, and `/story/` and `/story/uk.html` redirect to the new addresses.
 - Ukrainian text proofread with Gemini paragraph by paragraph; the owner's content edits carried over to English and checked by Gemini.
 - Facts: PMO office reporting to the Retail Director; PMO Hub started as the tool for DPA development; 14 major and minor skill releases; the skill also runs in Codex and Antigravity; Ernst & Young year removed.
@@ -136,7 +139,8 @@ All notable changes to this website are documented here. The format follows [Kee
 
 - First public version of the personal website, deployed to GitHub Pages.
 
-[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.4.0...HEAD
+[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.5.0...HEAD
+[1.5.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.2.0...v1.3.0
