@@ -63,7 +63,7 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
-h1, h2, h3 { margin: 0; font-weight: 650; letter-spacing: -0.02em; line-height: 1.1; }
+h1, h2, h3 { margin: 0; font-weight: 650; letter-spacing: -0.02em; line-height: 1.1; text-wrap: balance; }
 p { margin: 0 0 1em; }
 ul, ol { margin: 0; padding: 0; list-style: none; }
 .wrap { width: 100%; max-width: var(--wrap); margin: 0 auto; padding: 0 var(--gutter); }
