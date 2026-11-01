@@ -4,7 +4,7 @@ AI Transformation · Next-generation PMO · Operational Transformation
 
 - Currently in Poland · open to relocation within Europe · remote, hybrid, travel
 - LinkedIn: https://www.linkedin.com/in/oleksandryukhno/
-- Website: https://ayukhno.github.io/en.html
+- Website: https://ayukhno.github.io/
 
 ## Summary
 
@@ -24,21 +24,21 @@ AI Transformation · Next-generation PMO · Operational Transformation
 ### Partner (co-founder), AI-products startup, FlipManager (Now)
 
 - Two-partner startup building an AI exoskeleton for managers: four products on one base (DPA personal assistant, DBA small-business assistant, DPC corporate assistant, DCC Digital Company Compass).
-- Lead the personal and small-business assistants; designing PMO Hub, an AI-run project office with fixed AI roles (product owner, architect, tester, design critic, auditor) and cross-checks by a second AI vendor.
-- Built hub-kit (the DPA base) and both public Autosound projects with PMO Hub's prototype in 2026.
+- Lead the assistants for individuals and small business owners; designing PMO Hub, an AI-run project office with fixed AI roles (product owner, architect, tester, design critic, auditor) and cross-checks by a second AI vendor.
+- PMO Hub started as the tool for managing DPA development; DPA and both public Autosound projects were built with it in 2026.
 
 ### Author, Autosound (own projects, public on GitHub) (2026)
 
-- Method gathered from approaches, documentation, libraries and my own and friends' experience; a Claude skill turns it into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.
-- TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; works with different AI models directly or through OMP.
-- Results in 2026: five awards for my own car at EMMA and AYA championships; a user's car took first place at the AYA Finale.
+- Method gathered from approaches, documentation, libraries and my own and friends' experience; built with AI's help into a skill that makes the seven-phase process for tuning car audio around a sound processor deterministic while keeping AI flexible at every step; works in Claude, Codex and Antigravity; 14 major and minor releases since June 2026.
+- TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; AI chat panel; works with different AI models directly or through the OMP tool.
+- Results in 2026: five awards for my own car at EMMA and AYA championships, including two first places in qualifying rounds and third at the German EMMA Final; one user's car took first place at the AYA Finale.
 
-### Director of the Project Management Office (reporting to the COO), Silpo (From 2012)
+### Director of the Project Management Office (reporting to the Retail Director), Silpo (From 2012)
 
 - Annual planning and budgeting of store and production headcount, payroll and productivity, driven by format, processes and planned revenue.
 - Store P&L: the costs a store manager controls became visible by the 5th of the following month.
 - KPI system based on the balanced scorecard, from a single store to the whole chain.
-- Restructuring: legal-entity mergers, stores moved between entities, acquired chains integrated.
+- Restructuring: stores moved between legal entities and acquired chains integrated.
 - Expert in a McKinsey working group on operational processes; projects on promotions, pricing, markdowns and assortment; mobile platform for store processes; one annual stocktake instead of monthly ones.
 - Built and taught a practical project management course for retail.
 
@@ -84,7 +84,7 @@ AI Transformation · Next-generation PMO · Operational Transformation
 ## Training
 
 - IMD Business School: Short executive programmes (in Lausanne and on-site)
-- Ernst & Young: Decision management: cost, profit, pricing (2013)
+- Ernst & Young: Decision management: cost, profit, pricing
 - McKinsey: Trainings during the operations project at Silpo
 
 ## Languages

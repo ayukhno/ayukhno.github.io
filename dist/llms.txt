@@ -6,8 +6,8 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 ## CV
 
-- [CV in English (web)](https://ayukhno.github.io/en.html): what I can help with, career story, AI projects, first 100 days
-- [CV in Ukrainian (web)](https://ayukhno.github.io/): the same content in Ukrainian
+- [CV in English (web)](https://ayukhno.github.io/): what I can help with, career story, AI projects, first 100 days
+- [CV in Ukrainian (web)](https://ayukhno.github.io/uk.html): the same content in Ukrainian
 - [CV in English (Markdown)](https://ayukhno.github.io/cv/cv-en.md): plain text version for AI systems
 - [CV in Ukrainian (Markdown)](https://ayukhno.github.io/cv/cv-uk.md): plain text version for AI systems
 - [CV in English (PDF)](https://ayukhno.github.io/cv/Oleksandr-Yukhno-CV-EN.pdf)
@@ -15,7 +15,7 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 ## Projects
 
-- [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): AI as a deterministic seven-phase process for car-audio DSP tuning
+- [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): a deterministic seven-phase process for car-audio DSP tuning, with AI flexible at every step
 - [Autosound TCC](https://github.com/ayukhno/autosound-tcc): multilingual desktop app for macOS and Windows on top of the skill
 - [This website](https://github.com/ayukhno/ayukhno.github.io): an idea on Wednesday, a Codex prototype, then eight hours with Claude and Gemini to a proofread site online, about $40 of AI usage
 

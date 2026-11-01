@@ -5,7 +5,7 @@ One source of facts (CV below) produces, per language:
   tools/cv/out/print-<lang>.html  print layout, rendered to PDF by render_pdf.sh
 and dist/llms.txt for AI assistants and answer engines.
 
-Keep these facts in sync with dist/index.html and dist/en.html.
+Keep these facts in sync with dist/index.html (English) and dist/uk.html (Ukrainian).
 Run: python3 tools/cv/build_cv.py && sh tools/cv/render_pdf.sh
 """
 
@@ -23,7 +23,7 @@ CV = {
         "meta": [
             "Currently in Poland · open to relocation within Europe · remote, hybrid, travel",
             f"LinkedIn: {LINKEDIN}",
-            f"Website: {SITE}en.html",
+            f"Website: {SITE}",
         ],
         "h_summary": "Summary",
         "summary": (
@@ -48,19 +48,19 @@ CV = {
         "exp": [
             ("FlipManager", "Partner (co-founder), AI-products startup", "Now", [
                 "Two-partner startup building an AI exoskeleton for managers: four products on one base (DPA personal assistant, DBA small-business assistant, DPC corporate assistant, DCC Digital Company Compass).",
-                "Lead the personal and small-business assistants; designing PMO Hub, an AI-run project office with fixed AI roles (product owner, architect, tester, design critic, auditor) and cross-checks by a second AI vendor.",
-                "Built hub-kit (the DPA base) and both public Autosound projects with PMO Hub's prototype in 2026.",
+                "Lead the assistants for individuals and small business owners; designing PMO Hub, an AI-run project office with fixed AI roles (product owner, architect, tester, design critic, auditor) and cross-checks by a second AI vendor.",
+                "PMO Hub started as the tool for managing DPA development; DPA and both public Autosound projects were built with it in 2026.",
             ]),
             ("Autosound (own projects, public on GitHub)", "Author", "2026", [
-                "Method gathered from approaches, documentation, libraries and my own and friends' experience; a Claude skill turns it into a deterministic seven-phase process for tuning a car's sound processor from real measurements; 120+ releases since June 2026.",
-                "TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; works with different AI models directly or through OMP.",
-                "Results in 2026: five awards for my own car at EMMA and AYA championships; a user's car took first place at the AYA Finale.",
+                "Method gathered from approaches, documentation, libraries and my own and friends' experience; built with AI's help into a skill that makes the seven-phase process for tuning car audio around a sound processor deterministic while keeping AI flexible at every step; works in Claude, Codex and Antigravity; 14 major and minor releases since June 2026.",
+                "TCC: multilingual desktop app for macOS and Windows on top of the skill; 4,300+ automated tests; AI chat panel; works with different AI models directly or through the OMP tool.",
+                "Results in 2026: five awards for my own car at EMMA and AYA championships, including two first places in qualifying rounds and third at the German EMMA Final; one user's car took first place at the AYA Finale.",
             ]),
-            ("Silpo", "Director of the Project Management Office (reporting to the COO)", "From 2012", [
+            ("Silpo", "Director of the Project Management Office (reporting to the Retail Director)", "From 2012", [
                 "Annual planning and budgeting of store and production headcount, payroll and productivity, driven by format, processes and planned revenue.",
                 "Store P&L: the costs a store manager controls became visible by the 5th of the following month.",
                 "KPI system based on the balanced scorecard, from a single store to the whole chain.",
-                "Restructuring: legal-entity mergers, stores moved between entities, acquired chains integrated.",
+                "Restructuring: stores moved between legal entities and acquired chains integrated.",
                 "Expert in a McKinsey working group on operational processes; projects on promotions, pricing, markdowns and assortment; mobile platform for store processes; one annual stocktake instead of monthly ones.",
                 "Built and taught a practical project management course for retail.",
             ]),
@@ -96,7 +96,7 @@ CV = {
         "h_train": "Training",
         "train": [
             ("IMD Business School", "Short executive programmes (in Lausanne and on-site)", ""),
-            ("Ernst & Young", "Decision management: cost, profit, pricing", "2013"),
+            ("Ernst & Young", "Decision management: cost, profit, pricing", ""),
             ("McKinsey", "Trainings during the operations project at Silpo", ""),
         ],
         "h_lang": "Languages",
@@ -111,7 +111,7 @@ CV = {
         "meta": [
             "Зараз у Польщі · готовий до переїзду в межах Європи · віддалено, гібрид, відрядження",
             f"LinkedIn: {LINKEDIN}",
-            f"Сайт: {SITE}",
+            f"Сайт: {SITE}uk.html",
         ],
         "h_summary": "Коротко",
         "summary": (
@@ -136,21 +136,21 @@ CV = {
         "exp": [
             ("FlipManager", "Партнер (співзасновник), продуктовий ШІ-стартап", "Зараз", [
                 "Стартап двох партнерів, що створює ШІ-екзоскелет для керівників: чотири продукти на одній основі (DPA — персональний асистент, DBA — асистент для малого бізнесу, DPC — корпоративний асистент, DCC — Digital Company Compass).",
-                "Веду асистентів для людини та малого бізнесу; проєктую PMO Hub — проєктний офіс із чіткими ролями ШІ (власник продукту, архітектор, тестувальник, дизайн-критик, аудитор) і перевіркою іншим постачальником ШІ.",
-                "На прототипі PMO Hub у 2026 році створено hub-kit (основу DPA) і обидва публічні проєкти Autosound.",
+                "Веду асистентів для особистих задач і для власників малого бізнесу; проєктую PMO Hub — проєктний офіс із чіткими ролями ШІ (власник продукту, архітектор, тестувальник, дизайн-критик, аудитор) і перевіркою іншим постачальником ШІ.",
+                "PMO Hub народився як інструмент для розробки DPA; у 2026 році в ньому створено DPA й обидва проєкти Autosound.",
             ]),
             ("Autosound (власні проєкти, публічні на GitHub)", "Автор", "2026", [
-                "Метод, зібраний із підходів, документації, бібліотек, власного досвіду й досвіду знайомих; скіл для Claude перетворює його на детерміновану систему із семи фаз для налаштування автомобільного звукового процесора за реальними замірами; понад 120 релізів з червня 2026 року.",
-                "TCC: багатомовна настільна програма для macOS і Windows поверх скіла; понад 4 300 автотестів; працює з різними моделями ШІ напряму або через OMP.",
-                "Результати 2026 року: п'ять нагород для мого авто на чемпіонатах EMMA та AYA; авто користувача посіло перше місце на фіналі AYA.",
+                "Метод, зібраний із підходів, документації, бібліотек, власного досвіду й досвіду знайомих; за допомогою ШІ з нього створено скіл: детермінований процес із семи фаз для налаштування звуку в авто, з гнучкістю ШІ на кожному кроці; працює в Claude, Codex та Antigravity; 14 мажорних і мінорних релізів з червня 2026 року.",
+                "TCC: багатомовна настільна програма для macOS і Windows поверх скіла; понад 4 300 автотестів; діалогова панель ШІ; працює з різними моделями ШІ напряму або через інструмент OMP.",
+                "Результати 2026 року: п'ять нагород для мого авто на EMMA та AYA (два перші місця на етапах, третє у фіналі EMMA); авто користувача — перше місце у фіналі AYA.",
             ]),
-            ("«Сільпо»", "Директор офісу управління проєктами (у підпорядкуванні операційного директора)", "З 2012", [
+            ("«Сільпо»", "Директор офісу управління проєктами (у підпорядкуванні ритейл-директора)", "З 2012", [
                 "Річне планування та бюджетування чисельності, фонду оплати праці й продуктивності магазинів і виробництва від формату, процесів і планового виторгу.",
-                "P&L магазинів: витрати, на які впливає керівник магазину, стали доступні до 5-го числа наступного місяця.",
+                "P&L магазинів: дані про витрати, на які впливає керівник, стали доступні до 5-го числа наступного місяця.",
                 "Система KPI на основі збалансованої системи показників, від магазину до всієї мережі.",
-                "Реструктуризація: об'єднання юросіб, переведення магазинів між юрособами, інтеграція куплених мереж.",
-                "Експерт у робочій групі McKinsey з операційних процесів; проєкти з ціноутворення, промоакцій, уцінки та управління асортиментом; мобільна платформа для процесів магазинів; переоблік раз на рік замість щомісячного.",
-                "Розробив і викладав практичний курс з управління проєктами для ритейлу.",
+                "Реструктуризація: переведення магазинів між юрособами та інтеграція куплених мереж.",
+                "Експертна участь у робочій групі McKinsey з операційних процесів; проєкти з ціноутворення, промоакцій, уцінки та управління асортиментом; мобільна платформа для процесів магазинів; переоблік раз на рік замість щомісячного.",
+                "Розробив та викладав практичний курс з управління проєктами для ритейлу.",
             ]),
             ("«Сільпо»", "Директор ІТ-офісу (у підпорядкуванні виконавчого директора)", "2008–2012", [
                 "Стандарти, чеклісти та процедури для регіональних ІТ-команд, що підтримують магазини.",
@@ -184,7 +184,7 @@ CV = {
         "h_train": "Тренінги",
         "train": [
             ("Бізнес-школа IMD", "Короткі бізнес-програми (у Лозанні та виїзні)", ""),
-            ("Ernst & Young", "Економіка управлінських рішень: собівартість, прибуток, ціноутворення", "2013"),
+            ("Ernst & Young", "Економіка управлінських рішень: собівартість, прибуток, ціноутворення", ""),
             ("McKinsey", "Тренінги під час операційного проєкту в «Сільпо»", ""),
         ],
         "h_lang": "Мови",
@@ -228,7 +228,9 @@ def print_html(c, lang):
   p {{ margin: 0 0 4pt; }}
   ul {{ margin: 2pt 0 6pt 14pt; padding: 0; }}
   li {{ margin: 0 0 2pt; }}
-  .job {{ break-inside: avoid; margin-bottom: 6pt; }}
+  .job {{ margin-bottom: 6pt; }}
+  .job-head {{ break-after: avoid; }}
+  .job li {{ break-inside: avoid; }}
   .job-head {{ display: flex; justify-content: space-between; gap: 12pt; font-weight: 700; }}
   .job-head span:last-child {{ white-space: nowrap; font-weight: 400; color: #333; }}
   .org {{ color: #333; font-weight: 600; }}
@@ -270,8 +272,8 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 ## CV
 
-- [CV in English (web)]({SITE}en.html): what I can help with, career story, AI projects, first 100 days
-- [CV in Ukrainian (web)]({SITE}): the same content in Ukrainian
+- [CV in English (web)]({SITE}): what I can help with, career story, AI projects, first 100 days
+- [CV in Ukrainian (web)]({SITE}uk.html): the same content in Ukrainian
 - [CV in English (Markdown)]({SITE}cv/cv-en.md): plain text version for AI systems
 - [CV in Ukrainian (Markdown)]({SITE}cv/cv-uk.md): plain text version for AI systems
 - [CV in English (PDF)]({SITE}cv/Oleksandr-Yukhno-CV-EN.pdf)
@@ -279,7 +281,7 @@ Online CV in English and Ukrainian. Contact via LinkedIn only.
 
 ## Projects
 
-- [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): AI as a deterministic seven-phase process for car-audio DSP tuning
+- [Autosound Tuning Skill](https://github.com/ayukhno/autosound-tuning-skill): a deterministic seven-phase process for car-audio DSP tuning, with AI flexible at every step
 - [Autosound TCC](https://github.com/ayukhno/autosound-tcc): multilingual desktop app for macOS and Windows on top of the skill
 - [This website](https://github.com/ayukhno/ayukhno.github.io): an idea on Wednesday, a Codex prototype, then eight hours with Claude and Gemini to a proofread site online, about $40 of AI usage
 

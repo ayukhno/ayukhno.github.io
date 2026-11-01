@@ -6,6 +6,11 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ### Changed
 
+- English is now the default page at `/`; Ukrainian moved to `/uk.html`. The old `/en.html` redirects to `/`, and `/story/` and `/story/uk.html` redirect to the new addresses.
+- Ukrainian text proofread with Gemini paragraph by paragraph; the owner's content edits carried over to English and checked by Gemini.
+- Facts: PMO office reporting to the Retail Director; PMO Hub started as the tool for DPA development; 14 major and minor skill releases; the skill also runs in Codex and Antigravity; Ernst & Young year removed.
+- CV PDFs, Markdown versions and llms.txt rebuilt; long jobs may now break across pages so each PDF stays at two pages.
+- README opens with a note for anyone who wants to build their own CV from this repository.
 - Social preview image updated to the current wording (next-generation PMO, banking software).
 
 ### Changed

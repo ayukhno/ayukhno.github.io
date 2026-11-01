@@ -6,10 +6,12 @@
 
 Source of **<https://ayukhno.github.io/>**: an online CV that tells the path from electronics and software through project delivery and retail operations to applied AI.
 
+> **Build your own CV from this one.** To read my CV, the site is all you need. The rest of this README is for anyone who wants to repeat it: the structure, local preview, PDF and AI-search versions generated from one source of facts, checks, publishing and security. The code is MIT, so fork it and replace my texts and photo with your own.
+
 | Language | Address |
 |---|---|
-| Ukrainian | [`/`](https://ayukhno.github.io/) |
-| English | [`/en.html`](https://ayukhno.github.io/en.html) |
+| English | [`/`](https://ayukhno.github.io/) |
+| Ukrainian | [`/uk.html`](https://ayukhno.github.io/uk.html) |
 
 The site is static HTML, CSS and a little JavaScript. It has no framework, no build step, no runtime dependencies, no external fonts, no cookies and no analytics.
 
@@ -17,8 +19,9 @@ The site is static HTML, CSS and a little JavaScript. It has no framework, no bu
 
 ```text
 dist/                      published as-is to GitHub Pages
-├── index.html             CV in Ukrainian (default)
-├── en.html                CV in English
+├── index.html             CV in English (default)
+├── uk.html                CV in Ukrainian
+├── en.html                redirect from the old English address
 ├── story.css, story.js    styles and section highlighting
 ├── assets/                portrait, site mark, social preview image
 ├── cv/                    downloadable CV (PDF, EN/UA) and Markdown versions for AI systems
@@ -39,7 +42,7 @@ Requires Node.js; the version is in [`.nvmrc`](.nvmrc).
 npm start      # preview at http://127.0.0.1:4173 (PORT=… to change)
 ```
 
-You can also open `dist/index.html` directly in a browser.
+You can also open `dist/index.html` or `dist/uk.html` directly in a browser.
 
 ## Downloadable CV
 
