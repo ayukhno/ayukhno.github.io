@@ -8,9 +8,6 @@
     "type": "git",
     "url": "git+https://github.com/ayukhno/ayukhno.github.io.git"
   },
-  "bugs": {
-    "url": "https://github.com/ayukhno/ayukhno.github.io/issues"
-  },
   "license": "MIT",
   "author": "Oleksandr Yukhno",
   "type": "module",
