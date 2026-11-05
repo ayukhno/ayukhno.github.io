@@ -335,3 +335,14 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
   .ticks.cols { display: block; column-count: 2; column-gap: 40px; }
   .ticks.cols li { break-inside: avoid; margin-bottom: 10px; }
 }
+.chapter-split .proof { font-size: 15px; color: var(--muted); border-left: 2px solid var(--accent); padding-left: 12px; display: grid; gap: 4px; margin-top: 16px; }
+.chapter-split .proof p { margin: 0; }
+@media (min-width: 900px) {
+  .chapter-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); column-gap: 64px; }
+  .chapter-split > header { grid-column: 1 / -1; }
+  .chapter-split .proof { margin-top: 0; align-self: start; }
+}
+.chapter-split .proof .proof-gap { margin-top: 10px; }
+.chapter-split .proof b { color: var(--ink); font-weight: 650; }
+#skills .role-block { margin-top: 40px; }
+#skills .note { margin-top: 12px; font-size: 14px; color: var(--muted); }
