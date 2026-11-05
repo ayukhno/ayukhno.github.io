@@ -346,3 +346,5 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 .chapter-split .proof b { color: var(--ink); font-weight: 650; }
 #skills .role-block { margin-top: 40px; }
 #skills .note { margin-top: 12px; font-size: 14px; color: var(--muted); }
+@media (min-width: 900px) { .section-brief { padding: 48px 0; } }
+.section-brief { padding-top: 40px; padding-bottom: 40px; }
