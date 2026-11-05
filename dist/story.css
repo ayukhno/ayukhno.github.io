@@ -157,10 +157,18 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .bring h3 { position: relative; font-size: 22px; }
 .bring h3 .ico { position: absolute; left: -40px; top: -1px; width: 28px; height: 28px; fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 .bring p { color: var(--ink-2); margin: 0; }
+.bring div.proof { display: grid; gap: 8px; }
+.bring .proof p { color: inherit; }
+.bring .bring-steps { margin: 0; padding-left: 1.4em; list-style: decimal; display: grid; gap: 6px; }
+.bring .bring-main { display: grid; gap: 8px; align-content: start; }
+.bring .bring-steps li { padding: 0; border: 0; display: list-item; }
 .bring .proof { font-size: 15px; color: var(--muted); border-left: 2px solid var(--accent); padding-left: 12px; margin-top: 6px; }
 @media (min-width: 900px) {
   .bring { grid-template-columns: 1fr 1fr; column-gap: 64px; }
   .bring li { padding: 32px 0 36px 40px; }
+  .bring .bring-wide { grid-column: 1 / -1; grid-template-columns: 1fr 1fr; column-gap: 104px; }
+  .bring .bring-wide h3 { grid-column: 1 / -1; }
+  .bring .bring-wide .proof { margin-top: 0; align-self: start; }
 }
 
 /* Story: sticky rail + chapters */
