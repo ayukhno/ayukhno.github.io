@@ -314,3 +314,24 @@ footer a { display: inline-block; padding: 12px 0; color: var(--ink-2); }
 .edu-h { font: 600 12.5px/1.4 var(--mono); letter-spacing: 0.04em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
 @media (min-width: 900px) { .edu-cols { grid-template-columns: 1fr 1fr; column-gap: 64px; } }
 .cv-link { display: block; margin-top: 0; }
+
+/* Brief: compact variant of the "bring" cards */
+.bring-brief li { padding: 22px 0 24px 40px; gap: 8px; }
+.bring-brief h3 { font-size: 20px; }
+.bring-brief h3 .ico { width: 26px; height: 26px; top: 0; }
+.bring-list { margin-top: 0; }
+.bring-list li { padding: 14px 0; line-height: 1.55; }
+.section-brief .section-head { grid-template-columns: minmax(0, 1fr); gap: 8px; margin-bottom: 20px; }
+.section-brief .section-head h2 { font-size: 28px; max-width: none; }
+.section-brief .section-head p { margin: 0; }
+.section-brief .bring-list li { font-size: 17px; }
+.hero-brief h1 { font-size: clamp(30px, 3.2vw, 42px); max-width: 22ch; }
+.hero-brief .lead { font-size: 18px; margin-top: 16px; }
+.hero-brief .facts-list li { font-size: 17px; }
+.chapter .also { margin-top: 24px; color: var(--ink-2); }
+.more-link { margin-top: 32px; }
+.chapter > p.wide { max-width: none; }
+@media (min-width: 900px) {
+  .ticks.cols { display: block; column-count: 2; column-gap: 40px; }
+  .ticks.cols li { break-inside: avoid; margin-bottom: 10px; }
+}
