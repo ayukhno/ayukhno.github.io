@@ -4,6 +4,22 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-11-05
+
+### Changed
+
+- Two views: the CV is the base and the Story is its extension, with the same sections in the same order (where I can help, first 100 days, experience, AI in practice, education, skills, contact). The Brief view is gone; its old addresses redirect to the CV.
+- The home page `/` is now the English CV; the English Story moved to `/story.html`. Ukrainian: `/uk-cv.html` (CV) and `/uk.html` (Story). `/cv.html`, `/brief.html`, `/uk-brief.html` and `/story/` redirect.
+- New positioning: operational transformation, PMO and change management, AI in processes. "Next-generation PMO" and FlipManager removed everywhere; new meta title and description; Silpo and Ciklum without quotes.
+- PDF CVs rebuilt from the new CV in both languages: two A4 pages each, larger 10pt type. Markdown versions, llms.txt and the sitemap updated; the P.S. with the cost figure removed.
+
+### Added
+
+- "Where I can help": four tasks from Silpo experience (P&L tools, balanced scorecard, staff productivity, system change and PMO) and AI as a new challenge ("Digital Management").
+- CV sections: first 100 days, "Now: applied AI" with open projects and own systems, education, skills with personal qualities confirmed by assessments and an outside view by Claude, contact.
+- Experience: PMO project portfolio, four business transformation programmes, projects with McKinsey, PwC and KPMG.
+- The CV menu highlights the current section.
+
 ## [1.5.0] - 2026-11-01
 
 ### Changed
@@ -139,7 +155,8 @@ All notable changes to this website are documented here. The format follows [Kee
 
 - First public version of the personal website, deployed to GitHub Pages.
 
-[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.5.0...HEAD
+[Unreleased]: https://github.com/ayukhno/ayukhno.github.io/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.5.0...v2.0.0
 [1.5.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.4.0...v1.5.0
 [1.4.0]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.1...v1.4.0
 [1.3.1]: https://github.com/ayukhno/ayukhno.github.io/compare/v1.3.0...v1.3.1
