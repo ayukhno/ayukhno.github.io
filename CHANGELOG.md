@@ -4,6 +4,11 @@ All notable changes to this website are documented here. The format follows [Kee
 
 ## [Unreleased]
 
+### Changed
+
+- Social preview image with the new positioning (operational transformation · PMO · AI in processes, one accent colour); source in `tools/og/og.html`.
+- Ukrainian CV page: search title, description and social preview tags.
+
 ## [2.0.0] - 2026-11-05
 
 ### Changed
