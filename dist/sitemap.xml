@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ayukhno.github.io/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ayukhno.github.io/uk-cv.html"/>
+  </url>
+  <url>
+    <loc>https://ayukhno.github.io/uk-cv.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://ayukhno.github.io/uk-cv.html"/>
+  </url>
+  <url>
+    <loc>https://ayukhno.github.io/story.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/story.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://ayukhno.github.io/uk.html"/>
   </url>
   <url>
     <loc>https://ayukhno.github.io/uk.html</loc>
-    <lastmod>2026-11-01</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/"/>
+    <lastmod>2026-11-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ayukhno.github.io/story.html"/>
     <xhtml:link rel="alternate" hreflang="uk" href="https://ayukhno.github.io/uk.html"/>
   </url>
 </urlset>

@@ -5,7 +5,7 @@ One source of facts (CV below) produces, per language:
   tools/cv/out/print-<lang>.html  print layout, rendered to PDF by render_pdf.sh
 and dist/llms.txt for AI assistants and answer engines.
 
-Keep these facts in sync with the CV pages: dist/cv.html (English) and dist/uk-cv.html (Ukrainian).
+Keep these facts in sync with the CV pages: dist/index.html (English) and dist/uk-cv.html (Ukrainian).
 Run: python3 tools/cv/build_cv.py && sh tools/cv/render_pdf.sh
 """
 
@@ -23,7 +23,7 @@ CV = {
         "title": "Operational transformation · PMO and change management · AI in processes",
         "meta": [
             "Currently in Poland, from Ukraine · remote, hybrid, travel · open to relocation within Europe",
-            f"LinkedIn: {LINKEDIN} · Website: {SITE}cv.html",
+            f"LinkedIn: {LINKEDIN} · Website: {SITE}",
         ],
         "h_summary": "Summary",
         "summary": [
@@ -123,7 +123,7 @@ CV = {
         "h_lang": "Languages",
         "lang": "Ukrainian, English (professional working proficiency)",
         "h_contact": "Contact",
-        "contact": [f"LinkedIn: {LINKEDIN}", f"GitHub: {GITHUB}", f"Website: {SITE}cv.html"],
+        "contact": [f"LinkedIn: {LINKEDIN}", f"GitHub: {GITHUB}", f"Website: {SITE}"],
     },
     "uk": {
         "name": "Олександр Юхно",
@@ -325,9 +325,9 @@ Online CV in English and Ukrainian, in two views: a short CV and a fuller Story.
 
 ## CV
 
-- [CV in English (web)]({SITE}cv.html): where I can help, first 100 days, experience, education, skills
+- [CV in English (web)]({SITE}): where I can help, first 100 days, experience, education, skills
 - [CV in Ukrainian (web)]({SITE}uk-cv.html): the same content in Ukrainian
-- [Story in English (web)]({SITE}): the CV with more depth, career story and AI projects
+- [Story in English (web)]({SITE}story.html): the CV with more depth, career story and AI projects
 - [Story in Ukrainian (web)]({SITE}uk.html): the same content in Ukrainian
 - [CV in English (Markdown)]({SITE}cv/cv-en.md): plain text version for AI systems
 - [CV in Ukrainian (Markdown)]({SITE}cv/cv-uk.md): plain text version for AI systems

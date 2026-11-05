@@ -3,7 +3,7 @@
 Operational transformation · PMO and change management · AI in processes
 
 - Currently in Poland, from Ukraine · remote, hybrid, travel · open to relocation within Europe
-- LinkedIn: https://www.linkedin.com/in/oleksandryukhno/ · Website: https://ayukhno.github.io/cv.html
+- LinkedIn: https://www.linkedin.com/in/oleksandryukhno/ · Website: https://ayukhno.github.io/
 
 ## Summary
 
@@ -105,4 +105,4 @@ Ukrainian, English (professional working proficiency)
 
 - LinkedIn: https://www.linkedin.com/in/oleksandryukhno/
 - GitHub: https://github.com/ayukhno
-- Website: https://ayukhno.github.io/cv.html
+- Website: https://ayukhno.github.io/

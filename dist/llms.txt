@@ -6,9 +6,9 @@ Online CV in English and Ukrainian, in two views: a short CV and a fuller Story.
 
 ## CV
 
-- [CV in English (web)](https://ayukhno.github.io/cv.html): where I can help, first 100 days, experience, education, skills
+- [CV in English (web)](https://ayukhno.github.io/): where I can help, first 100 days, experience, education, skills
 - [CV in Ukrainian (web)](https://ayukhno.github.io/uk-cv.html): the same content in Ukrainian
-- [Story in English (web)](https://ayukhno.github.io/): the CV with more depth, career story and AI projects
+- [Story in English (web)](https://ayukhno.github.io/story.html): the CV with more depth, career story and AI projects
 - [Story in Ukrainian (web)](https://ayukhno.github.io/uk.html): the same content in Ukrainian
 - [CV in English (Markdown)](https://ayukhno.github.io/cv/cv-en.md): plain text version for AI systems
 - [CV in Ukrainian (Markdown)](https://ayukhno.github.io/cv/cv-uk.md): plain text version for AI systems
