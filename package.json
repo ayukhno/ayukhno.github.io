@@ -22,7 +22,7 @@
     "test": "npm run check && npm run lint:html && npm run lint:css"
   },
   "devDependencies": {
-    "html-validate": "11.16.4",
+    "html-validate": "11.17.0",
     "stylelint": "17.16.0",
     "stylelint-config-standard": "40.0.0"
   }
